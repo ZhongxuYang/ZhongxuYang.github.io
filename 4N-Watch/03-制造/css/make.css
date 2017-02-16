@@ -129,12 +129,12 @@ html,body{
 	width: 60px;
 	height: 82px;
 	margin-top: 2px;
-	background: url(img/4N-exclu-num-bande.png) center 0 repeat-y;
+	background: url(../img/4N-exclu-num-bande.png) center 0 repeat-y;
 }
 #s_03_03{
 	width: 100%;
 	height: 100%;
-	background: url(img/4N-exclu.jpg) center no-repeat;
+	background: url(../img/4N-exclu.jpg) center no-repeat;
 }
 #s_03_04{
 	width: 100%;
@@ -155,27 +155,27 @@ html,body{
 	
 }
 #timer div:nth-of-type(1){
-	background: url(img/4N-exclu-num-bande.png) center 0 repeat-y;
+	background: url(../img/4N-exclu-num-bande.png) center 0 repeat-y;
 	background-position-y: 0;
 }
 #timer div:nth-of-type(2){
-	background: url(img/4N-exclu-num-bande.png) center 0 repeat-y;
+	background: url(../img/4N-exclu-num-bande.png) center 0 repeat-y;
 	background-position-y: -737px;
 }
 #timer div:nth-of-type(3){
-	background: url(img/4N-exclu-num-bande-3based.png) center 0 repeat-y;
+	background: url(../img/4N-exclu-num-bande-3based.png) center 0 repeat-y;
 	background-position-y: -162px;
 }
 #timer div:nth-of-type(4){
-	background: url(img/4N-exclu-num-bande-4based.png) center 0 repeat-y;
+	background: url(../img/4N-exclu-num-bande-4based.png) center 0 repeat-y;
 	background-position-y: -244px;
 }
 #timer div:nth-of-type(5){
-	background: url(img/4N-exclu-num-bande-6based.png) center 0 repeat-y;
+	background: url(../img/4N-exclu-num-bande-6based.png) center 0 repeat-y;
 	background-position-y: -408px;
 }
 #timer div:nth-of-type(6){
-	background: url(img/4N-exclu-num-bande.png) center 0 repeat-y;
+	background: url(../img/4N-exclu-num-bande.png) center 0 repeat-y;
 	background-position-y: 0;
 }
 #timer div,#timer p{
@@ -190,12 +190,12 @@ html,body{
 #s_03_05{
 	width: 100%;
 	height: 100%;
-	background: url(img/4N-auto.jpg) center no-repeat;
+	background: url(../img/4N-auto.jpg) center no-repeat;
 }
 #s_03_06{
 	width: 100%;
 	height: 100%;
-	background: url(img/4N-sophi-bracelets.jpg) 0 -380px no-repeat;
+	background: url(../img/4N-sophi-bracelets.jpg) 0 -380px no-repeat;
 }
 #s_03_06 .content-text{
 	margin-top: 450px;
@@ -210,13 +210,13 @@ html,body{
 	left: 352px;
 }
 #swatch .pic:nth-child(2){
-	background: url(img/4N-brac-noir.png) no-repeat;
+	background: url(../img/4N-brac-noir.png) no-repeat;
 }
 #swatch .pic:nth-child(3){
-	background: url(img/4N-brac-brun-clair.png) no-repeat;
+	background: url(../img/4N-brac-brun-clair.png) no-repeat;
 }
 #swatch .pic:nth-child(4){
-	background: url(img/4N-brac-brun-fonce.png) no-repeat;
+	background: url(../img/4N-brac-brun-fonce.png) no-repeat;
 }
 #swatch p{
 	width: 32px;
