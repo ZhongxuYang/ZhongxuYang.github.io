@@ -37,7 +37,7 @@ path{
 	top: -15%;
 	left: 0;
 	border-bottom: 1px solid #A3A3B2;
-	z-index: 10;
+	z-index: 999;
 	overflow: hidden;
 	transition: 1s;
 }
@@ -81,6 +81,7 @@ path{
 	border: none;
 	background: url(../img/flag.png) repeat-x;
 	background-size: contain;
+	z-index: 10;
 }
 /*----------welcome----------*/
 #welcome{
