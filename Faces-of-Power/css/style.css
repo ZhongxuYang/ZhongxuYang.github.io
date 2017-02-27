@@ -20,13 +20,20 @@ svg{
 	top: 0;
 }
 path{
-	transition: 3s;
+	transition: 2s ease-in-out;
+}
+rect{
+	transition: 2s ease-in-out;
 }
 .canvas{
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
 	z-index: -1;
+	transition: 2s ease-in-out;
+}
+#personage .canvas{
+	background-color: rgb(194, 192, 202);
 }
 /*------------nav-------------*/
 #nav{
