@@ -2,6 +2,8 @@ html,body{
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	position: fixed;
+	/*position:fixed是为了解决在移动端overflow:hidden;不起作用*/
 }
 #content{
 	width: 100vw;
