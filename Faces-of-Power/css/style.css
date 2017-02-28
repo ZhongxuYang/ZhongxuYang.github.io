@@ -74,6 +74,7 @@ rect{
 	background-color: #fff;
 	z-index: 999;
 	transition: 1s;
+	overflow: hidden;
 }
 #loading .blue-star{
 	width: 10vw;
@@ -108,6 +109,7 @@ rect{
 	left: 0;
 	background-color: #fff;
 	transition: 1s;
+	overflow: hidden;
 }
 #welcome .mask{
 	width: 100vw;
@@ -218,6 +220,7 @@ rect{
 	/*opacity: 0;*/
 	width: 100vw;
 	height: 100vh;
+	overflow: hidden;
 }
 /*#personage .star{
 	position: absolute;
