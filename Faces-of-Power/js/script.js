@@ -25,7 +25,10 @@ window.onload = function(){
 		
 		//loading页面消失，welcome显示
 		setTimeout(function(){
-			loading.style.display = 'none';
+			loading.style.opacity = 0;
+			setTimeout(function(){
+				loading.style.display = 'none';
+			},1000);
 			welcome.style.zIndex = '200';
 			welcomeFn();
 		},9000);
@@ -36,6 +39,8 @@ window.onload = function(){
 	function welcomeFn(){
 		var welcome = document.getElementById('welcome');
 		var paths = welcome.getElementsByTagName('path');
+		var canvas = welcome.getElementsByClassName('canvas')[0];
+		canvas.style.backgroundColor = 'rgb(88, 94, 113)';
 		for(var i=0;i<sculpture.length;i++){
 			paths[i].setAttribute('d',sculpture[i].d);
 			paths[i].setAttribute('fill',sculpture[i].fill);
@@ -244,9 +249,9 @@ window.onload = function(){
 		});
 		function clickFn(ev){
 			var name = ev.target.className;
-			svgs.forEach(function(a,b,c){
-				a.setAttribute('viewBox',data[name].other.viewBox);
-			});
+//			svgs.forEach(function(a,b,c){
+//				a.setAttribute('viewBox',data[name].other.viewBox);
+//			});
 			clipPaths.forEach(function(a,b,c){
 				a.children[0].setAttribute('width',data[name].other.width);
 				a.children[0].setAttribute('height',data[name].other.height);
