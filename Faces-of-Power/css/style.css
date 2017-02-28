@@ -238,7 +238,7 @@ rect{
 	height: 40px;
 	position: absolute;
 	top: 40px;
-	right: 40px;
+	right: 10px;
 	cursor: pointer;
 	z-index: 10;
 	transition: 1s;
