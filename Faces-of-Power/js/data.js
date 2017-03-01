@@ -204,7 +204,9 @@ var data = {
 			}
 		},
 		info:{
-			'name':'Donald TRUMP',
+			'first': 'Donald',
+			'last': 'TRUMP',
+			'word':'“Make America <br>&nbsp;Great Again”​',
 			'Party Affiliation':'Republican Party',
 			'Took Office': 'January 20, 2017 (age 70 years 7 months)',
             'Challengers': 'Hillary Clinton',
@@ -345,7 +347,7 @@ var data = {
 				'd':"M74,258L64,201L92,209Z",'fill':"rgb(67, 79, 97)",'fill-opacity':"0.93"
 			},p60:{
 				'd':"M45,6L55,64L25,47Z",'fill':"rgb(181, 191, 200)",'fill-opacity':"0.86"
-			},p62:{
+			},p61:{
 				'd':"M105,26L128,5L91,3Z",'fill':"rgb(0, 20, 32)",'fill-opacity':"0.20"
 			},p62:{
 				'd':"M59,80L60,37L82,36Z",'fill':"rgb(154, 136, 110)",'fill-opacity':"0.70"
@@ -428,7 +430,9 @@ var data = {
 			}
 		},
 		info:{
-			'name':'Barack OBAMA',
+			'first':'Barack',
+			'last': 'OBAMA',
+			'word':'“Yes We Can”​<br />“Forward”',
 			'Party Affiliation':'Democratic Party',
 			'Took Office': 'January 20, 2009 (age 47 years 5 months)',
             'Challengers': 'John McCain, Mitt Romney',
@@ -652,7 +656,9 @@ var data = {
 			}
 		},
 		info:{
-			'name':'John Q. ADAMS',
+			'first':'John Q.',
+			'last':'ADAMS',
+			'word':'',
 			'Party Affiliation':'Democratic-Republican Party',
 			'Took Office': 'March 4, 1825 (age 57 years 7 months)',
 			'Left Office': 'March 4, 1829',
@@ -880,13 +886,22 @@ var data = {
 			}
 		},
 		info:{
-				
-				
-				
-				
-				
-				
-				
+			'first':'Chester A.',
+			'last':'ARTHUR',
+			'word':'',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'September 19, 1881 (age 51 years 11 months)',
+            'Left Office': 'March 4, 1885',
+            'Cause': 'Did not seek reelection',
+            'Birthplace': 'Fairfield, Vermont',
+            'Birthdate': 'October 5, 1829',
+            'Death': 'Hypertensive heart disease',
+            'Death date': 'November 18, 1886 (age 57 years old)',
+            'State Affiliation': 'New York',
+            'Profession': 'School teacher, Lawyer, Collector of tariffs',
+            'Education': 'Union College-Schenectady',
+            'Religion': 'Episcopalian',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 216.6153846153846 256",
@@ -1101,11 +1116,23 @@ var data = {
 			}
 		},
 		info:{
-			
-			
-			
-			
-			
+			'first':'Lyndon B.',
+			'last': 'Johnson',
+			'word':'“The Stakes are too High <br />&nbsp;for You to Stay at Home”',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'November 22, 1963 (age 55 years 2 months)',
+            'Left Office': 'January 20, 1969',
+            'Cause': 'Did not seek reelection',
+            'Challengers': 'Barry Goldwater',
+            'Birthplace': 'Stonewall, Texas',
+            'Birthdate': 'August 27, 1908',
+            'Death': 'Heart attack',
+            'Death date': 'January 22, 1973 (age 64 years old)',
+            'State Affiliation': 'Texas',
+            'Profession': 'Teacher, Public Official',
+            'Education': 'Texas State University',
+            'Religion': 'Disciples of Christ',
+            'Height': '6\' 4\"'
 		},
 		other:{
 			'viewBox':"0 0 192 256",
@@ -1219,8 +1246,23 @@ var data = {
 			p100:{ 'd':"M134,106L136,97L126,101Z",'fill':"rgb(166, 125, 108)",'fill-opacity':"0.89"}
 		},
 		info:{
-			
-			
+			'first':'James',
+			'last':'BUCHANAN',
+			'word':'“We\'ll Buck \'em in \'56”',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1857 (age 65 years 10 months)',
+            'Left Office': 'March 4, 1861',
+            'Cause': 'Passed over by party',
+            'Challengers': 'John Frémont, Millard Fillmore',
+            'Birthplace': 'Cove Gap, Pennsylvania',
+            'Birthdate': 'April 23, 1791',
+            'Death': 'Respiratory failure',
+            'Death date': 'June 1, 1868 (age 77 years old)',
+            'State Affiliation': 'Pennsylvania',
+            'Profession': 'Lawyer, Diplomat',
+            'Education': 'Dickinson College',
+            'Religion': 'Presbyterian',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 201.14285714285714 256",
@@ -1334,9 +1376,21 @@ var data = {
 			p100:{'d':"M72,102L50,100L77,97Z",'fill':"rgb(72, 39, 24)",'fill-opacity':"0.43"}
 		},
 		info:{
-			
-			
-			
+			'first':'Jimmy',
+			'last':'CARTER',
+			'word':'“A Leader, For a Change”​',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'January 20, 1977 (age 52 years 3 months)',
+            'Left Office': 'January 20, 1981',
+            'Cause': 'Lost reelection',
+            'Challengers': 'Gerald Ford',
+            'Birthplace': 'Plains, Georgia',
+            'Birthdate': 'October 1, 1924',
+            'State Affiliation': 'Georgia',
+            'Profession': 'Sailor, Farmer, Writer',
+            'Education': 'United States Naval Academy, Union College-Schenectady',
+            'Religion': 'Baptist',
+            'Height': '5\' 9\"'
 		},
 		other:{
 			'viewBox':"0 0 192.28444444444443 256",
@@ -1450,9 +1504,22 @@ var data = {
 			p100:{ 'd':"M148,180L116,202L120,208Z",'fill':"rgb(69, 33, 15)",'fill-opacity':"0.69"}
 		},
 		info:{
-			
-			
-			
+			'first':'Grover',
+			'last':'CLEVELAND',
+			'word':'“Blaine, Blaine, <br />&nbsp;James G. Blaine! <br />&nbsp;The continental liar <br />&nbsp;from the state of Maine!”<br />“Our choice: Cleve and Steve”',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1885 (age 47 years 11 months)',
+            'Left Office': 'March 4, 1889',
+            'Cause': 'Lost reelection',
+            'Challengers': 'James Blaine, Benjamin Harrison',
+            'Birthplace': 'Caldwell, New Jersey',
+            'Birthdate': 'March 18, 1837',
+            'Death': 'Cancer',
+            'Death date': 'June 24, 1908 (age 71 years old)',
+            'State Affiliation': 'New York',
+            'Profession': 'Sheriff, Lawyer, Assistant teacher',
+            'Religion': 'Presbyterian',
+            'Height': '5\' 11\"'
 		},
 		other:{
 			'viewBox':"0 0 214.22594142259413 256",
@@ -1566,9 +1633,21 @@ var data = {
 			p100:{'d':"M36,85L32,58L42,73Z",'fill':"rgb(100, 100, 112)",'fill-opacity':"0.42"}
 		},
 		info:{
-			
-			
-			
+			'first':'Bill',
+			'last':'CLINTON',
+			'word':'“Putting People First”​<br />“Building a Bridge <br />&nbsp;to the 21st Century”',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'January 20, 1993 (age 46 years 5 months)',
+            'Left Office': 'January 20, 2001',
+            'Cause': 'Term ended',
+            'Challengers': 'Robert Dole, George H. W. Bush, Ross Perot',
+            'Birthplace': 'Hope, Arkansas',
+            'Birthdate': 'August 19, 1946',
+            'State Affiliation': 'Arkansas',
+            'Profession': 'Lawyer, Law lecturer',
+            'Education': 'Yale University, Georgetown University',
+            'Religion': 'Baptist',
+            'Height': '6\' 2\"'
 		},
 		other:{
 			'viewBox':"0 0 168.559670781893 256",
@@ -1682,8 +1761,23 @@ var data = {
 			p100:{'d':"M166,229L210,247L143,151Z",'fill':"rgb(53, 51, 43)",'fill-opacity':"0.32"}
 		},
 		info:{
-			
-			
+			'first':'Calvin',
+			'last':'COOLIDGE',
+			'word':'“Keep Cool <br>&nbsp;and Keep Coolidge”​',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'August 1, 1923 (age 51 years 3 weeks)',
+            'Left Office': 'March 4, 1929',
+            'Cause': 'Did not seek reelection',
+            'Challengers': 'Robert La Follette, John Davis',
+            'Birthplace': 'Plymouth, Vermont',
+            'Birthdate': 'July 4, 1872',
+            'Death': 'Coronary thrombosis',
+            'Death date': 'January 5, 1933 (age 60 years old)',
+            'State Affiliation': 'Massachusetts',
+            'Profession': 'Lawyer, Public Official',
+            'Education': 'Amherst College',
+            'Religion': 'Congregationalist',
+            'Height': '5\' 10\"'
 		},
 		other:{
 			'viewBox':"0 0 190.91525423728814 256",
@@ -1797,8 +1891,23 @@ var data = {
 			p100:{'d':"M259,-4L122,46L122,5Z",'fill':"rgb(44, 45, 35)",'fill-opacity':"0.53"}
 		},
 		info:{
-			
-			
+			'first':'Franklin D.',
+			'last':'ROOSEVELT',
+			'word':'“Remember Hoover!”​<br />“Better A Third Termer <br />&nbsp;than a Third Rater”​<br />“Don\'t swap horses <br />&nbsp;in midstream”​',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1933 (age 51 years 1 month)',
+            'Left Office': 'April 12, 1945',
+            'Cause': 'Died in office',
+            'Challengers': 'Herbert Hoover',
+            'Birthplace': 'Hyde Park, New York',
+            'Birthdate': 'January 30, 1882',
+            'Death': 'Cerebral hemorrhage',
+            'Death date': 'April 12, 1945 (age 63 years old)',
+            'State Affiliation': 'New York',
+            'Profession': 'Lawyer',
+            'Education': 'Harvard University, Columbia University',
+            'Religion': 'Episcopal',
+            'Height': '6\' 2\"'
 		},
 		other:{
 			'viewBox':"0 0 177.66561514195584 256",
@@ -1913,8 +2022,23 @@ var data = {
 			p100:{'d':"M111,200L125,195L134,210Z",'fill':"rgb(47, 62, 117)",'fill-opacity':"0.98"}
 		},
 		info:{
-			
-			
+			'first':'Dwight',
+			'last':'EISENHOWER',
+			'word':'“I like Ike”​<br />“Peace and Prosperity”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'January 20, 1953 (age 62 years 3 months)',
+            'Left Office': 'January 20, 1961',
+            'Cause': 'Term ended',
+            'Challengers': 'Adlai Stevenson',
+            'Birthplace': 'Denison, Texas',
+            'Birthdate': 'October 14, 1890',
+            'Death': 'Congestive heart failure',
+            'Death date': 'March 28, 1969 (age 78 years old)',
+            'State Affiliation': 'Kansas',
+            'Profession': 'Soldier, President of Columbia University',
+            'Education': 'United States Military Academy',
+            'Religion': 'Presbyterian',
+            'Height': '5\' 10\"'
 		},
 		other:{
 			'viewBox':"0 0 204.4179104477612 256",
@@ -2028,8 +2152,21 @@ var data = {
 			p100:{'d':"M117,83L103,94L155,101Z",'fill':"rgb(66, 42, 30)",'fill-opacity':"0.36"}
 		},
 		info:{
-			
-			
+			'first':'Millard',
+			'last':'FILLMORE',
+			'word':'',
+			'Party Affiliation': 'Whig Party',
+            'Took Office': 'July 9, 1850 (age 50 years 6 months)',
+            'Left Office': 'March 4, 1853',
+            'Cause': 'Passed over by party',
+            'Birthplace': 'Summerhill, New York',
+            'Birthdate': 'January 7, 1800',
+            'Death': 'Stroke',
+            'Death date': 'March 8, 1874 (age 74 years old)',
+            'State Affiliation': 'New York',
+            'Profession': 'Lawyer',
+            'Religion': 'Unitarian',
+            'Height': '5\' 9\"'
 		},
 		other:{
 			'viewBox':"0 0 212.45541838134432 256",
@@ -2143,8 +2280,23 @@ var data = {
 			p100:{'d':"M114,52L134,48L158,75Z",'fill':"rgb(183, 128, 88)",'fill-opacity':"0.39"}
 		},
 		info:{
-			
-			
+			'first':'Gerald',
+			'last':'FORD',
+			'word':'“He\'s Making us <br />&nbsp;Proud Again”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'August 9, 1974 (age 61 years 3 weeks)',
+            'Left Office': 'January 20, 1977',
+            'Cause': 'Lost reelection',
+            'Challengers': 'Jimmy Carter',
+            'Birthplace': 'Omaha, Nebraska',
+            'Birthdate': 'July 13, 1913',
+            'Death': 'Arteriosclerotic cerebrovascular disease',
+            'Death date': 'December 26, 2006 (age 93 years old)',
+            'State Affiliation': 'Michigan',
+            'Profession': 'Football Player, Sailor, Lawyer',
+            'Education': 'Yale University, University of Michigan-Ann Arbor',
+            'Religion': 'Episcopalian',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 201.6969696969697 256",
@@ -2258,8 +2410,23 @@ var data = {
 			p100:{'d':"M139,109L152,121L161,109Z",'fill':"rgb(175, 156, 126)",'fill-opacity':"0.56"}
 		},
 		info:{
-			
-			
+			'first':'James A.',
+			'last':'GARFIELD',
+			'word':'',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1881 (age 49 years 3 months)',
+            'Left Office': 'September 19, 1881',
+            'Cause': 'Assassinated',
+            'Challengers': 'Winfield S. Hancock',
+            'Birthplace': 'Moreland Hills, Ohio',
+            'Birthdate': 'November 19, 1831',
+            'Death': 'Assassination by Charles J. Guiteau',
+            'Death date': 'September 19, 1881 (age 49 years old)',
+            'State Affiliation': 'Ohio',
+            'Profession': 'School teacher, Minister, Soldier',
+            'Education': 'Williams College',
+            'Religion': 'Church of Christ',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 207.6151202749141 256",
@@ -2373,8 +2540,23 @@ var data = {
 			p100:{'d':"M17,217L21,210L9,213Z",'fill':"rgb(247, 253, 255)",'fill-opacity':"0.50"}
 		},
 		info:{
-			
-			
+			'first':'Ulysses S.',
+			'last':'GRANT',
+			'word':'“Let Us Have Peace”​<br />“Grant Us Another Term”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1869 (age 46 years 10 months)',
+            'Left Office': 'March 4, 1877',
+            'Cause': 'Term ended',
+            'Challengers': 'Horatio Seymour',
+            'Birthplace': 'Point Pleasant, Ohio',
+            'Birthdate': 'April 27, 1822',
+            'Death': 'Throat cancer',
+            'Death date': 'July 23, 1885 (age 63 years old)',
+            'State Affiliation': 'Illinois',
+            'Profession': 'Soldier, General of the Army',
+            'Education': 'United States Military Academy',
+            'Religion': 'Methodist',
+            'Height': '5\' 8\"'
 		},
 		other:{
 			'viewBox':"0 0 214.189111747851 256",
@@ -2488,10 +2670,21 @@ var data = {
 			p100:{'d':"M88,183L82,153L67,191Z",'fill':"rgb(12, 18, 35)",'fill-opacity':"0.47"}
 		},
 		info:{
-			
-			
-			
-			
+			'first':'George W.',
+			'last':'BUSH',
+			'word':'“Reformer with Results”​<br />“A Safer World and <br />&nbsp;a More Hopeful America”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'January 20, 2001 (age 54 years 6 months)',
+            'Left Office': 'January 20, 2009',
+            'Cause': 'Term ended',
+            'Challengers': 'John Kerry, Al Gore',
+            'Birthplace': 'New Haven, Connecticut',
+            'Birthdate': 'July 6, 1946',
+            'State Affiliation': 'Texas',
+            'Profession': 'Pilot, Businessman',
+            'Education': 'Harvard University, Yale University',
+            'Religion': 'Episcopalian (before 1977), United Methodist',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 223.7381342062193 256",
@@ -2605,9 +2798,23 @@ var data = {
 			p100:{'d':"M77,156L103,194L109,188Z",'fill':"rgb(121, 76, 9)",'fill-opacity':"0.46"}
 		},
 		info:{
-			
-			
-			
+			'first':'Warren G.',
+			'last':'HARDING',
+			'word':'“Return to normalcy”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1921 (age 55 years 3 months)',
+            'Left Office': 'August 2, 1923',
+            'Cause': 'Died in office',
+            'Challengers': 'James Cox',
+            'Birthplace': 'Blooming Grove, Ohio',
+            'Birthdate': 'November 2, 1865',
+            'Death': 'Heart failure',
+            'Death date': 'August 2, 1923 (age 57 years old)',
+            'State Affiliation': 'Ohio',
+            'Profession': 'Journalist, Newspaper publisher/editor',
+            'Education': 'Ohio Central College',
+            'Religion': 'Baptist',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 256 244.27480916030535",
@@ -2721,9 +2928,23 @@ var data = {
 			p100:{'d':"M106,101L132,148L98,115Z",'fill':"rgb(131, 57, 12)",'fill-opacity':"0.36"}
 		},
 		info:{
-			
-			
-			
+			'first':'Benjamin',
+			'last':'HARRISON',
+			'word':'“Rejuvenated <br />&nbsp;Republicanism”​',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1889 (age 55 years and 6 months)',
+            'Left Office': 'March 4, 1893',
+            'Cause': 'Lost reelection',
+            'Challengers': 'James Weaver, Grover Cleveland',
+            'Birthplace': 'North Bend, Ohio',
+            'Birthdate': 'August 20, 1833',
+            'Death': 'Influenza and pneumonia',
+            'Death date': 'March 13, 1901 (age 67 years old)',
+            'State Affiliation': 'Indiana',
+            'Profession': 'Lawyer, Journalist',
+            'Education': 'Miami University Oxford',
+            'Religion': 'Presbyterian',
+            'Height': '5\' 6\"'
 		},
 		other:{
 			'viewBox':"0 0 197 250",
@@ -2837,8 +3058,23 @@ var data = {
 			p100:{'d':"M67,38L101,29L76,54Z",'fill':"rgb(248, 205, 170)",'fill-opacity':"0.64"}
 		},
 		info:{
-			
-			
+			'first':'Rutherford B.',
+			'last':'HAYES',
+			'word':'“Hayes the true <br />&nbsp;and Wheeler too”​',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1877 (age 54 years 4 months)',
+            'Left Office': 'March 4, 1881',
+            'Cause': 'Did not seek reelection',
+            'Challengers': 'Samuel J. Tilden',
+            'Birthplace': 'Delaware, Ohio',
+            'Birthdate': 'October 4, 1822',
+            'Death': 'Heart attack',
+            'Death date': 'January 17, 1893 (age 70 years old)',
+            'State Affiliation': 'Ohio',
+            'Profession': 'Lawyer',
+            'Education': 'Harvard University, Kenyon College',
+            'Religion': 'Methodist',
+            'Height': '5\' 9\"'
 		},
 		other:{
 			'viewBox':"0 0 203 250",
@@ -2952,8 +3188,23 @@ var data = {
 			p100:{'d':"M90,185L125,156L124,184Z",'fill':"rgb(182, 141, 127)",'fill-opacity':"0.45"}
 		},
 		info:{
-			
-			
+			'first':'Herbert',
+			'last':'HOOVER',
+			'word':'“A Chicken in Every Pot <br>&nbsp;and a Car in Every Garage”​<br />“We are turning the corner”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1929 (age 54 years 6 months)',
+            'Left Office': 'March 4, 1933',
+            'Cause': 'Lost reelection',
+            'Challengers': 'Alfred E. Smith',
+            'Birthplace': 'West Branch, Iowa',
+            'Birthdate': 'August 10, 1874',
+            'Death': 'Internal hemorrhaging',
+            'Death date': 'October 20, 1964 (age 90 years old)',
+            'State Affiliation': 'Iowa',
+            'Profession': 'Engineer, Investor',
+            'Education': 'Stanford University, George Fox University',
+            'Religion': 'Quaker',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 237.03703703703704 256",
@@ -3067,8 +3318,21 @@ var data = {
 			p100:{'d':"M129,139L128,167L100,156Z",'fill':"rgb(215, 108, 72)",'fill-opacity':"0.15"}
 		},
 		info:{
-			
-			
+			'first':'George H.W.',
+			'last':'BUSH',
+			'word':'“Kinder, Gentler Nation”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'January 20, 1989 (age 64 years 7 months)',
+            'Left Office': 'January 20, 1993',
+            'Cause': 'Lost reelection',
+            'Challengers': 'Michael Dukakis',
+            'Birthplace': 'Milton, Massachusetts',
+            'Birthdate': 'June 12, 1924',
+            'State Affiliation': 'Texas',
+            'Profession': 'Pilot, Businessman, C.I.A. Director, Ambassador to China',
+            'Education': 'Yale University',
+            'Religion': 'Episcopalian',
+            'Height': '6\' 2\"'
 		},
 		other:{
 			'viewBox':"0 0 256 213.33333333333334",
@@ -3182,8 +3446,22 @@ var data = {
 			p100:{'d':"M103,103L112,98L99,112Z",'fill':"rgb(205, 147, 99)",'fill-opacity':"0.50"}
 		},
 		info:{
-			
-			
+			'first':'Andrew',
+			'last':'JACKSON',
+			'word':'',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1829 (age 61 years 11 months)',
+            'Left Office': 'March 4, 1837',
+            'Cause': 'Term ended',
+            'Challengers': 'Henry Clay, John Quincy Adams, William Wirt',
+            'Birthplace': 'Waxhaws border region, South Carolina',
+            'Birthdate': 'March 15, 1767',
+            'Death': 'Tuberculosis, dropsy, and heart failure',
+            'Death date': 'June 8, 1845 (age 78 years old)',
+            'State Affiliation': 'Tennessee',
+            'Profession': 'Soldier, Lawyer',
+            'Religion': 'Presbyterian',
+            'Height': '6\' 1\"'
 		},
 		other:{
 			'viewBox':"0 0 210.93632958801498 256",
@@ -3298,8 +3576,23 @@ var data = {
 			p100:{'d':"M52,42L38,-28L-44,99Z",'fill':"rgb(37, 34, 24)",'fill-opacity':"0.38"}
 		},
 		info:{
-			
-			
+			'first':'John Q.',
+			'last':'ADAMS',
+			'word':'',
+			'Party Affiliation': 'Democratic-Republican Party',
+            'Took Office': 'March 4, 1825 (age 57 years 7 months)',
+            'Left Office': 'March 4, 1829',
+            'Cause': 'Lost reelection',
+            'Challengers': 'Henry Clay, William Crawford, John C. Calhoun',
+            'Birthplace': 'Braintree, Massachusetts',
+            'Birthdate': 'July 11, 1767',
+            'Death': 'Cerebral hemorrhage',
+            'Death date': 'February 23, 1848 (age 80 years old)',
+            'State Affiliation': 'Massachusetts',
+            'Profession': 'Lawyer',
+            'Education': 'Harvard University',
+            'Religion': 'Unitarianism',
+            'Height': '5\' 7\"'
 		},
 		other:{
 			'viewBox':"0 0 170 227",
@@ -3413,8 +3706,23 @@ var data = {
 			p100:{'d':"M130,221L119,260L94,243Z",'fill':"rgb(33, 22, 12)",'fill-opacity':"0.64"}
 		},
 		info:{
-			
-			
+			'first':'Thomas',
+			'last':'Jefferson',
+			'word':'',
+			'Party Affiliation': 'Democratic-Republican Party',
+            'Took Office': 'March 4, 1801 (age 57 years 10 months)',
+            'Left Office': 'March 4, 1809',
+            'Cause': 'Term ended',
+            'Challengers': 'John Adams',
+            'Birthplace': 'Shadwell, Virginia',
+            'Birthdate': 'April 12, 1743',
+            'Death': 'Natural causes',
+            'Death date': 'July 3, 1826 (age 83 years old)',
+            'State Affiliation': 'Virginia',
+            'Profession': 'Writer, Inventor, Lawyer, Architect, Farmer, Diplomat, Linguist, Theologian',
+            'Education': 'College of William and Mary',
+            'Religion': 'Christian Deism',
+            'Height': '6\' 2\"'
 		},
 		other:{
 			'viewBox':"0 0 256 250.02666666666667",
@@ -3528,8 +3836,23 @@ var data = {
 			p100:{'d':"M163,57L155,67L138,27Z",'fill':"rgb(48, 39, 32)",'fill-opacity':"0.57"}
 		},
 		info:{
-			
-			
+			'first':'Lyndon B.',
+			'last':'Johnson',
+			'word':'“The Stakes are too High <br />&nbsp;for You to Stay at Home”',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'November 22, 1963 (age 55 years 2 months)',
+            'Left Office': 'January 20, 1969',
+            'Cause': 'Did not seek reelection',
+            'Challengers': 'Barry Goldwater',
+            'Birthplace': 'Stonewall, Texas',
+            'Birthdate': 'August 27, 1908',
+            'Death': 'Heart attack',
+            'Death date': 'January 22, 1973 (age 64 years old)',
+            'State Affiliation': 'Texas',
+            'Profession': 'Teacher, Public Official',
+            'Education': 'Texas State University',
+            'Religion': 'Disciples of Christ',
+            'Height': '6\' 4\"'
 		},
 		other:{
 			'viewBox':"0 0 215 203",
@@ -3643,8 +3966,23 @@ var data = {
 			p100:{'d':"M115,204L116,165L101,179Z",'fill':"rgb(239, 242, 238)",'fill-opacity':"0.84"}
 		},
 		info:{
-			
-			
+			'first':'John',
+			'last':'KENNEDY',
+			'word':'“A time for greatness 1960”​',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'January 20, 1961 (age 43 years 7 months)',
+            'Left Office': 'November 22, 1963',
+            'Cause': 'Assassinated',
+            'Challengers': 'Richard Nixon',
+            'Birthplace': 'Brookline, Massachusetts',
+            'Birthdate': 'May 29, 1917',
+            'Death': 'Assassination by Lee Harvey Oswald',
+            'Death date': 'November 22, 1963 (age 46 years old)',
+            'State Affiliation': 'Massachusetts',
+            'Profession': 'Writer, Sailor',
+            'Education': 'Harvard University',
+            'Religion': 'Roman Catholic',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 188.21183800623052 256",
@@ -3758,8 +4096,22 @@ var data = {
 			p100:{'d':"M117,119L125,142L185,167Z",'fill':"rgb(224, 224, 224)",'fill-opacity':"0.76"}
 		},
 		info:{
-			
-			
+			'first':'Abraham',
+			'last':'LINCOLN',
+			'word':'“Vote yourself a farm”​<br />“Don\'t Swap Horses <br />&nbsp;in the Middle <br />&nbsp;of the Stream”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1861 (age 52 years 2 weeks)',
+            'Left Office': 'April 15, 1865',
+            'Cause': 'Assassinated',
+            'Challengers': 'John Bell, Stephen Douglas, John C. Breckinridge',
+            'Birthplace': 'Hardin County, Kentucky',
+            'Birthdate': 'February 12, 1809',
+            'Death': 'Assassination by John Wilkes Booth',
+            'Death date': 'April 15, 1865 (age 56 years old)',
+            'State Affiliation': 'Illinois',
+            'Profession': 'Land Surveyor, Lawyer',
+            'Religion': 'Christian',
+            'Height': '6\' 4\"'
 		},
 		other:{
 			'viewBox':"0 0 193.82857142857142 256",
@@ -3873,9 +4225,22 @@ var data = {
 			p100:{'d':"M154,110L128,107L152,86Z",'fill':"rgb(229, 184, 142)",'fill-opacity':"0.73"}
 		},
 		info:{
-			
-			
-			
+			'first':'James',
+			'last':'MADISON',
+			'word':'',
+			'Party Affiliation': 'Democratic-Republican Party',
+            'Took Office': 'March 4, 1809 (age 57 years 11 months)',
+            'Left Office': 'March 4, 1817',
+            'Cause': 'Term ended',
+            'Challengers': 'Charles Pinckney',
+            'Birthplace': 'Port Conway, Virginia',
+            'Birthdate': 'March 16, 1751',
+            'Death': 'Heart failure',
+            'Death date': 'June 28, 1836 (age 85 years old)',
+            'State Affiliation': 'Virginia',
+            'Profession': 'Farmer/plantation owner',
+            'Education': 'Princeton University',
+            'Height': '5\' 4\"'
 		},
 		other:{
 			'viewBox':"0 0 256 256",
@@ -3989,8 +4354,23 @@ var data = {
 			p100:{'d':"M135,40L152,50L96,37Z",'fill':"rgb(178, 100, 38)",'fill-opacity':"0.34"}
 		},
 		info:{
-			
-			
+			'first':'William',
+			'last':'MCKINLEY',
+			'word':'“Patriotism, Protection, <br />&nbsp;and Prosperity”​<br />“A Full Dinner Pail”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1897 (age 54 years 1 month)',
+            'Left Office': 'September 14, 1901',
+            'Cause': 'Assassinated',
+            'Challengers': 'William Bryan',
+            'Birthplace': 'Niles, Ohio',
+            'Birthdate': 'January 29, 1843',
+            'Death': 'Assassination by Leon Czolgosz',
+            'Death date': 'September 14, 1901 (age 58 years old)',
+            'State Affiliation': 'Ohio',
+            'Profession': 'Lawyer, Soldier',
+            'Education': 'Allegheny College',
+            'Religion': 'Methodist',
+            'Height': '5\' 7\"'
 		},
 		other:{
 			'viewBox':"0 0 212.68882175226585 256",
@@ -4104,8 +4484,23 @@ var data = {
 			p100:{'d':"M90,86L85,82L87,89Z",'fill':"rgb(19, 0, 0)",'fill-opacity':"0.43"}
 		},
 		info:{
-			
-			
+			'first':'James',
+			'last':'MONROE',
+			'word':'',
+			'Party Affiliation': 'Democratic-Republican Party',
+            'Took Office': 'March 3, 1817 (age 58 years 10 months)',
+            'Left Office': 'March 3, 1825',
+            'Cause': 'Term ended',
+            'Challengers': 'Rufus King',
+            'Birthplace': 'Westmoreland County, Virginia',
+            'Birthdate': 'April 28, 1758',
+            'Death': 'Heart failure and tuberculosis',
+            'Death date': 'July 4, 1831 (age 73 years old)',
+            'State Affiliation': 'Virginia',
+            'Profession': 'Farmer/plantation owner, Lawyer',
+            'Education': 'College of William and Mary',
+            'Religion': 'Episcopal',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 195.1219512195122 256",
@@ -4219,8 +4614,23 @@ var data = {
 			p100:{'d':"M70,86L58,79L95,84Z",'fill':"rgb(155, 100, 84)",'fill-opacity':"0.50"}
 		},
 		info:{
-			
-			
+			'first':'Richard',
+			'last':'NIXON',
+			'word':'“Nixon\'s the One”​',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'January 20, 1969 (age 56 years 1 week)',
+            'Left Office': 'August 9, 1974',
+            'Cause': 'Resigned',
+            'Challengers': 'George McGovern, Hubert Humphrey, George Wallace',
+            'Birthplace': 'Yorba Linda, California',
+            'Birthdate': 'January 9, 1913',
+            'Death': 'Severe stroke and blood clot',
+            'Death date': 'April 22, 1994 (age 81 years old)',
+            'State Affiliation': 'California',
+            'Profession': 'Lawyer, Sailor',
+            'Education': 'Duke University, Whittier College',
+            'Religion': 'Quaker',
+            'Height': '5\' 11\"'
 		},
 		other:{
 			'viewBox':"0 0 205.36888888888888 256",
@@ -4334,8 +4744,23 @@ var data = {
 			p100:{'d':"M142,152L183,167L195,207Z",'fill':"rgb(6, 6, 6)",'fill-opacity':"0.97"}
 		},
 		info:{
-			
-			
+			'first':'Franklin',
+			'last':'PIERCE',
+			'word':'“We Polked you in \'44, <br />&nbsp;We shall Pierce you in \'52”​',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1853 (age 48 years 3 months)',
+            'Left Office': 'March 4, 1857',
+            'Cause': 'Passed over by party',
+            'Challengers': 'Winfield Scott',
+            'Birthplace': 'Hillsborough, New Hampshire',
+            'Birthdate': 'November 23, 1804',
+            'Death': 'Cirrhosis of the liver',
+            'Death date': 'October 8, 1869 (age 64 years old)',
+            'State Affiliation': 'New Hampshire',
+            'Profession': 'Lawyer',
+            'Education': 'Bowdoin College',
+            'Religion': 'Episcopal',
+            'Height': '5\' 10\"'
 		},
 		other:{
 			'viewBox':"0 0 214.61333333333334 256",
@@ -4449,8 +4874,23 @@ var data = {
 			p100:{'d':"M89,48L48,58L47,73Z",'fill':"rgb(138, 143, 133)",'fill-opacity':"0.54"}
 		},
 		info:{
-			
-			
+			'first':'James K.',
+			'last':'POLK',
+			'word':'“Reannexation of Texas <br />&nbsp;and Reoccupation <br />&nbsp;of Oregon”',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1845 (age 49 years 3 months)',
+            'Left Office': 'March 4, 1849',
+            'Cause': 'Did not seek reelection',
+            'Challengers': 'Henry Clay',
+            'Birthplace': 'Pineville, North Carolina',
+            'Birthdate': 'November 2, 1795',
+            'Death': 'Cholera',
+            'Death date': 'June 15, 1849 (age 53 years old)',
+            'State Affiliation': 'Tennessee',
+            'Profession': 'Lawyer, Plantation owner',
+            'Education': 'University of North Carolina at Chapel Hill',
+            'Religion': 'Methodist',
+            'Height': '5\' 8\"'
 		},
 		other:{
 			'viewBox':"0 0 234.4 256",
@@ -4564,9 +5004,23 @@ var data = {
 			p100:{'d':"M174,53L110,35L92,22Z",'fill':"rgb(90, 75, 76)",'fill-opacity':"0.53"}
 		},
 		info:{
-			
-			
-			
+			'first':'Ronald',
+			'last':'REAGAN',
+			'word':'“Are you better off than <br>&nbsp;you were four years ago?”​<br />“It’s Morning Again <br />&nbsp;in America”​',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'January 20, 1981 (age 69 years 11 months)',
+            'Left Office': 'January 20, 1989',
+            'Cause': 'Term ended',
+            'Challengers': 'John Anderson, Jimmy Carter, Walter Mondale',
+            'Birthplace': 'Tampico, Illinois',
+            'Birthdate': 'February 6, 1911',
+            'Death': 'Pneumonia after years of Alzheimers',
+            'Death date': 'June 5, 2004 (age 93 years old)',
+            'State Affiliation': 'California',
+            'Profession': 'Actor and broadcaster',
+            'Education': 'Eureka College',
+            'Religion': 'Baptized Disciples of Christ',
+            'Height': ' 6\' 1\"'
 		},
 		other:{
 			'viewBox':"0 0 256 256",
@@ -4680,8 +5134,23 @@ var data = {
 			p100:{'d':"M92,10L132,17L106,17Z",'fill':"rgb(250, 185, 175)",'fill-opacity':"0.21"}
 		},
 		info:{
-			
-			
+			'first':'William H.',
+			'last':'TAFT',
+			'word':'“A Square Deal For All”',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'March 4, 1909 (age 51 years 5 months)',
+            'Left Office': 'March 4, 1913',
+            'Cause': 'Lost reelection',
+            'Challengers': 'William Bryan',
+            'Birthplace': 'Cincinnati, Ohio',
+            'Birthdate': 'September 15, 1857',
+            'Death': 'Arteriosclerotic heart disease',
+            'Death date': 'March 8, 1930 (age 72 years old)',
+            'State Affiliation': 'Ohio',
+            'Profession': 'Lawyer, Judge, Law reporter',
+            'Education': 'Yale University, University of Cincinnati',
+            'Religion': 'Unitarian',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 188.56782334384857 256",
@@ -4795,8 +5264,22 @@ var data = {
 			p100:{'d':"M212,239L209,375L164,224Z",'fill':"rgb(52, 48, 36)",'fill-opacity':"1.00"}
 		},
 		info:{
-			
-			
+			'first':'Zachary',
+			'last':'TAYLOR',
+			'word':'“For President <br />&nbsp;of the People”​',
+			'Party Affiliation': 'Whig Party',
+            'Took Office': 'March 4, 1849 (age 64 years 3 months)',
+            'Left Office': 'July 9, 1850',
+            'Cause': 'Died in office',
+            'Challengers': 'Lewis Cass, Martin Van Buren',
+            'Birthplace': 'Barboursville, Virginia',
+            'Birthdate': 'November 24, 1784',
+            'Death': 'Gastroenteritis',
+            'Death date': 'July 9, 1850 (age 65 years old)',
+            'State Affiliation': 'Louisiana',
+            'Profession': 'Soldier',
+            'Religion': 'Episcopal',
+            'Height': '5\' 8\"'
 		},
 		other:{
 			'viewBox':"0 0 211.9298245614035 256",
@@ -4910,8 +5393,23 @@ var data = {
 			p100:{'d':"M55,161L9,190L13,206Z",'fill':"rgb(78, 82, 81)",'fill-opacity':"0.61"}
 		},
 		info:{
-			
-			
+			'first':'Theodore',
+			'last':'ROOSEVELT',
+			'word':'“To Assure <br />&nbsp;Continued Prosperity”​',
+			'Party Affiliation': 'Republican Party',
+            'Took Office': 'September 14, 1901 (age 42 years 10 months)',
+            'Left Office': 'March 4, 1909',
+            'Cause': 'Term ended',
+            'Challengers': 'Alton B. Parker',
+            'Birthplace': 'New York, New York',
+            'Birthdate': 'October 27, 1858',
+            'Death': 'Coronary embolism and inflammatory rheumatism',
+            'Death date': 'January 6, 1919 (age 60 years old)',
+            'State Affiliation': 'New York',
+            'Profession': 'Public Official, Rancher, Soldier',
+            'Education': 'Harvard University, Columbia University',
+            'Religion': 'Dutch Reformed',
+            'Height': '5\' 10\"'
 		},
 		other:{
 			'viewBox':"0 0 204.47284345047925 256",
@@ -5025,8 +5523,22 @@ var data = {
 			p100:{'d':"M84,104L123,124L104,155Z",'fill':"rgb(226, 174, 151)",'fill-opacity':"0.51"}
 		},
 		info:{
-			
-			
+			'first':'Harry',
+			'last':'TRUMAN',
+			'word':'“I\'m just wild about Harry”​',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'April 12, 1945 (age 60 years 11 months)',
+            'Left Office': 'January 20, 1953',
+            'Cause': 'Term ended',
+            'Challengers': 'J. Strom Thurmond, Thomas Dewey',
+            'Birthplace': 'Lamar, Missouri',
+            'Birthdate': 'May 8, 1884',
+            'Death': 'Pneumonia',
+            'Death date': 'December 26, 1972 (age 88 years old)',
+            'State Affiliation': 'Missouri',
+            'Profession': 'Farmer, Soldier, Haberdasher',
+            'Religion': 'Southern Baptist',
+            'Height': '5\' 8\"'
 		},
 		other:{
 			'viewBox':"0 0 290 247.96412556053812",
@@ -5140,9 +5652,22 @@ var data = {
 			p100:{'d':"M84,258L71,236L65,215Z",'fill':"rgb(77, 58, 31)",'fill-opacity':"0.67"}
 		},
 		info:{
-			
-			
-		
+			'first':'John',
+			'last':'TYLER',
+			'word':'',
+			'Party Affiliation': 'Whig Party',
+            'Took Office': 'April 4, 1841 (age 51 years 3 days)',
+            'Left Office': 'March 4, 1845',
+            'Cause': 'Did not seek reelection',
+            'Birthplace': 'Charles City County, Virginia',
+            'Birthdate': 'March 29, 1790',
+            'Death': 'Stroke',
+            'Death date': 'January 18, 1862 (age 71 years old)',
+            'State Affiliation': 'Virginia',
+            'Profession': 'Lawyer',
+            'Education': 'College of William and Mary',
+            'Religion': 'Episcopal',
+            'Height': '6\' 0\"'
 		},
 		other:{
 			'viewBox':"0 0 182.26537216828478 256",
@@ -5256,8 +5781,23 @@ var data = {
 			p100:{'d':"M153,53L136,19L148,58Z",'fill':"rgb(3, 31, 28)",'fill-opacity':"0.27"}
 		},
 		info:{
-			
-			
+			'first':'Martin VAN',
+			'last':'BUREN',
+			'word':'',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1837 (age 54 years 2 months)',
+            'Left Office': 'March 4, 1841',
+            'Cause': 'Lost reelection',
+            'Challengers': 'William Henry Harrison, Hugh L. White',
+            'Birthplace': 'Kinderhook, New York',
+            'Birthdate': 'December 5, 1782',
+            'Death': 'Bronchial asthma and heart failure',
+            'Death date': 'July 24, 1862 (age 79 years old)',
+            'State Affiliation': 'New York',
+            'Profession': 'Lawyer',
+            'Education': 'Kinderhook Academy, Washington Seminary',
+            'Religion': 'Dutch Reformed',
+            'Height': '5\' 6\"'
 		},
 		other:{
 			'viewBox':"0 0 219.90735146022155 256",
@@ -5371,9 +5911,20 @@ var data = {
 			p100:{'d':"M146,118L160,143L158,120Z",'fill':"rgb(57, 43, 53)",'fill-opacity':"0.42"}
 		},
 		info:{
-			
-			
-			
+			'first':'George',
+			'last':'Washington',
+			'word':'',
+			'Took Office': 'April 30, 1789 (age 57 years 2 months)',
+            'Left Office': 'March 4, 1797',
+            'Cause': 'Did not seek reelection',
+            'Birthplace': 'Westmoreland County, Virginia',
+            'Birthdate': 'February 22, 1732',
+            'Death': 'Pneumonia',
+            'Death date': 'December 14, 1799 (age 67 years old)',
+            'State Affiliation': 'Virginia',
+            'Profession': 'Land Surveyor, Farmer/plantation owner, Soldier',
+            'Religion': 'Church of England',
+            'Height': '6\' 2\"'
 		},
 		other:{
 			'viewBox':"0 0 205.90215264187867 256",
@@ -5487,8 +6038,23 @@ var data = {
 			p100:{'d':"M126,87L92,125L104,128Z",'fill':"rgb(252, 219, 193)",'fill-opacity':"0.20"}
 		},
 		info:{
-			
-			
+			'first':'William H.',
+			'last':'HARRISON',
+			'word':'“Tippecanoe <br />&nbsp;and Tyler Too”',
+			'Party Affiliation': 'Whig Party',
+            'Took Office': 'March 4, 1841 (age 68 years 3 weeks)',
+            'Left Office': 'April 4, 1841',
+            'Cause': 'Died in office',
+            'Challengers': 'Martin Van Buren',
+            'Birthplace': 'Charles City, Virginia',
+            'Birthdate': 'February 9, 1773',
+            'Death': 'Pneumonia',
+            'Death date': 'April 4, 1841 (age 68 years old)',
+            'State Affiliation': 'Ohio',
+            'Profession': 'Soldier',
+            'Education': 'University of Pennsylvania',
+            'Religion': 'Episcopal',
+            'Height': '5\' 8\"'
 		},
 		other:{
 			'viewBox':"0 0 216.02191780821917 256",
@@ -5602,8 +6168,23 @@ var data = {
 			p100:{'d':"M148,44L162,70L145,14Z",'fill':"rgb(77, 80, 84)",'fill-opacity':"0.73"}
 		},
 		info:{
-			
-			
+			'first':'Woodrow',
+			'last':'WILSON',
+			'word':'“Win with Wilson”​<br />“He has kept us <br />&nbsp;out of war”',
+			'Party Affiliation': 'Democratic Party',
+            'Took Office': 'March 4, 1913 (age 56 years 2 months)',
+            'Left Office': 'March 4, 1921',
+            'Cause': 'Term ended',
+            'Challengers': 'William H. Taft, Theodore Roosevelt, Charles Evans Hughes, Eugene V. Debs',
+            'Birthplace': 'Staunton, Virginia',
+            'Birthdate': 'December 28, 1856',
+            'Death': 'Stroke',
+            'Death date': 'February 3, 1924 (age 67 years old)',
+            'State Affiliation': 'New Jersey',
+            'Profession': 'Lawyer, Professor, President Princeton University',
+            'Education': 'Princeton University, Johns Hopkins University',
+            'Religion': 'Presbyterianism',
+            'Height': '5\' 11\"'
 		},
 		other:{
 			'viewBox':"0 0 208.11004126547456 256",

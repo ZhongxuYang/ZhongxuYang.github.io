@@ -281,6 +281,9 @@ rect{
 }
 #personage .info h3{
 	font: 2vw/10vw "arial, helvetica, sans-serif";
+	position: relative;
+	z-index: 50;
+	transition: 1s;
 }
 #personage .info h3 strong{
 	font-size: 4vw;
@@ -343,6 +346,7 @@ rect{
 	width: 6vw;
 	height: 7vw;
 	float: left;
+	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -369,7 +373,9 @@ rect{
 	line-height: 3vw;
 }
 .resume li{
-	width: 80%;
+	width: 40%;
+	float: left;
+	margin-right: 10px;
 	border-bottom: 1px solid #E0E0E0;
 }
 /*-----------------底部------------------*/

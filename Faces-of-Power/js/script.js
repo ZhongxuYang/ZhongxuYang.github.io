@@ -1,5 +1,5 @@
 window.onload = function(){
-	
+	var winW = window.innerWidth;
 /*-------------loading---------------*/
 	(function(){
 		var loading = document.getElementById('loading');
@@ -183,6 +183,12 @@ window.onload = function(){
 		TwoBtnClick.prototype.disappear = function(){
 			var that = this;
 			this.btn.addEventListener('click',function(){
+				var h3 = document.getElementsByTagName('h3')[0];
+//				var canvas = personage.getElementsByClassName('canvas')[0];
+//				canvas.style.cssText = 'transform: scale(0.3)';
+				move(h3,{'left':'20','top':'-100'},1000,'linear');
+				h3.style.transform = 'scale(0.8)';
+				h3.style.textShadow = '10px 10px 50px #000';
 				that.btns.forEach(function(a,b,c){
 					a.style.opacity = '0';
 				});
@@ -219,6 +225,12 @@ window.onload = function(){
 		CloseClick.prototype.show = function(){
 			var that = this;
 			this.btn.addEventListener('click',function(){
+//				var canvas = personage.getElementsByClassName('canvas')[0];
+//				canvas.style.cssText = '';
+				var h3 = document.getElementsByTagName('h3')[0];
+				move(h3,{'left':'','top':''},1000,'linear');
+				h3.style.transform = '';
+				h3.style.textShadow = '';
 				that.btns.forEach(function(a,b,c){
 					a.style.opacity = '';
 				});
@@ -232,6 +244,7 @@ window.onload = function(){
 	
 /*-------------personage-canvas---------------*/
 	
+	//点击换图
 	(function(){
 		var canvas = personage.getElementsByClassName('canvas')[0];
 		var svgs = canvas.getElementsByTagName('svg');
@@ -249,6 +262,17 @@ window.onload = function(){
 		});
 		function clickFn(ev){
 			var name = ev.target.className;
+			//给点击的小图重新定位
+			var l = ev.target.offsetLeft;
+			ev.target.left = winW/2 - ev.target.offsetWidth/2 + 'px';
+//			imgs.forEach(function(a,b,c){
+//				if( a != ev.target ){
+//					
+//				}
+//			});
+			
+			
+			//修改svg
 //			svgs.forEach(function(a,b,c){
 //				a.setAttribute('viewBox',data[name].other.viewBox);
 //			});
@@ -265,7 +289,27 @@ window.onload = function(){
 				a.setAttribute('fill',data[name].svg['p'+(b+1)].fill);
 				a.setAttribute('fill-opacity',data[name].svg['p'+(b+1)]['fill-opacity']);
 			});
+			changeInfo(name);
 		};
+		//人物信息改变
+		function changeInfo( who ){
+			var name = document.getElementsByClassName('name')[0];
+			var resume = document.getElementById('resume');
+			var ul = resume.getElementsByTagName('ul')[0];
+			var info = document.getElementsByClassName('info')[0];
+			var left = info.getElementsByClassName('left')[0];
+			var p = left.getElementsByTagName('p')[0];
+			
+			name.innerHTML = data[who].info.first + '<strong> ' + data[who].info.last + '</strong>';
+			p.innerHTML = data[who].info.word;
+			var str = '';
+			for(var attr in data[who].info){
+				if( attr != 'first' && attr != 'last' && attr != 'word' ){
+					str += '<li>' + attr + ': ' + data[who].info[attr] + '</li>';
+				}
+			}
+			ul.innerHTML = str;
+		}
 		
 	})();
 
