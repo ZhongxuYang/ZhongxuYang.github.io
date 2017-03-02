@@ -58,12 +58,12 @@ rect{
 #nav ul{
 	width: 100%;
 	height: 100%;
-	font: 3vh "arial, helvetica, sans-serif";
+	font: 2vw "arial, helvetica, sans-serif";
 	font-weight: 100;
 }
 #nav li{
-	width: 10%;
 	float: right;
+	padding: 0 4vw;
 	line-height: 100px;
 }
 /*----------loading----------*/
@@ -309,11 +309,36 @@ rect{
 }
 #personage .bar{
 	width: 100vw;
-	height: 12vw;
 	position: absolute;
 	left: 0;
 	bottom: 0;
 }
+/*--------人物黑色蒙版--------*/
+/*#personage .bar .mask{
+	width: 3600px;
+	height: 110px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	opacity: 0.3;
+}
+#personage .bar .mask .left{
+	width: 1760px;
+	height: 110px;
+	background-color: #000000;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#personage .bar .mask .right{
+	width: 1760px;
+	height: 110px;
+	background-color: #000000;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}*/
 #personage .bar-btn{
 	height: 5vw;
 }
@@ -340,17 +365,21 @@ rect{
 	transform: scale(1.2);
 }
 #personage .bar-imgs{
-	width: 264vw;
+	width: 3600px;
+	height: 110px;
+	position: relative;
+	left: 0;
+	bottom: 0;
 }
 #personage .bar-imgs div{
-	width: 6vw;
-	height: 7vw;
-	float: left;
-	position: relative;
+	width: 80px;
+	height: 110px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;
+	position: absolute;
+	transition: 1s;
 }
 /*-----------------左部------------------*/
 .resume{
@@ -369,8 +398,8 @@ rect{
 	width: 100%;
 	height: 100%;
 	padding: 15% 0 0 5%;
-	font-size: 2vw;
-	line-height: 3vw;
+	font-size: 1vw;
+	line-height: 2vw;
 }
 .resume li{
 	width: 40%;

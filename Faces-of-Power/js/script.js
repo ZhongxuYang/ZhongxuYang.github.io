@@ -1,5 +1,14 @@
 window.onload = function(){
 	var winW = window.innerWidth;
+	var bar_img = document.getElementsByClassName('bar-imgs')[0];
+	var bar_img_divs = bar_img.getElementsByTagName('div');
+	bar_img_divs = Array.from(bar_img_divs);
+	
+	bar_img_divs.forEach(function(a,b,c){
+		a.style.left = 80*b + 'px';
+	})
+	bar_img.style.left = -(3600 - winW)/2 + 'px';
+//	grayscale(bar_imgs.getElementsByTagName("div"));
 /*-------------loading---------------*/
 	(function(){
 		var loading = document.getElementById('loading');
@@ -256,40 +265,58 @@ window.onload = function(){
 		svgs = Array.from(svgs);
 		paths = Array.from(paths);
 		clipPaths = Array.from(clipPaths);
+		var onOff = true;//防止下面的小图没有运动完就点击，不然图会错乱
 		
 		imgs.forEach(function(a,b,c){
 			a.addEventListener('click',clickFn);
 		});
 		function clickFn(ev){
-			var name = ev.target.className;
-			//给点击的小图重新定位
-			var l = ev.target.offsetLeft;
-			ev.target.left = winW/2 - ev.target.offsetWidth/2 + 'px';
-//			imgs.forEach(function(a,b,c){
-//				if( a != ev.target ){
-//					
-//				}
-//			});
-			
-			
-			//修改svg
-//			svgs.forEach(function(a,b,c){
-//				a.setAttribute('viewBox',data[name].other.viewBox);
-//			});
-			clipPaths.forEach(function(a,b,c){
-				a.children[0].setAttribute('width',data[name].other.width);
-				a.children[0].setAttribute('height',data[name].other.height);
-			});
-			canvas.style.backgroundColor = data[name].other.fill;
-			bg.setAttribute('width',data[name].other.width);
-			bg.setAttribute('height',data[name].other.height);
-			bg.setAttribute('fill',data[name].other.fill);
-			paths.forEach(function(a,b,c){
-				a.setAttribute('d',data[name].svg['p'+(b+1)].d);
-				a.setAttribute('fill',data[name].svg['p'+(b+1)].fill);
-				a.setAttribute('fill-opacity',data[name].svg['p'+(b+1)]['fill-opacity']);
-			});
-			changeInfo(name);
+			if( onOff ){
+				onOff = false;
+				var name = ev.target.className;
+				//给点击的小图重新定位
+				var nowL = ev.target.offsetLeft;//当前点击图片的位置
+				var center = (bar_img.offsetWidth - ev.target.offsetWidth)/2;//中心位置
+				var disL = nowL - center;//移动距离
+				ev.target.style.left = center + 'px';
+				imgs.forEach(function(a,b,c){
+					var oldL = a.offsetLeft;
+					var newL = oldL - disL;
+					a.style.zIndex = '';
+					if( newL < 0 ){
+						newL = 3520 - disL + oldL;
+						a.style.zIndex = '-1';
+					}
+					if( newL > a.offsetWidth*44 ){
+						newL = newL - 3520;
+						a.style.zIndex = '-1';
+					}
+					a.style.left = newL + 'px';
+				});
+				
+				
+				//修改svg
+	//			svgs.forEach(function(a,b,c){
+	//				a.setAttribute('viewBox',data[name].other.viewBox);
+	//			});
+				clipPaths.forEach(function(a,b,c){
+					a.children[0].setAttribute('width',data[name].other.width);
+					a.children[0].setAttribute('height',data[name].other.height);
+				});
+				canvas.style.backgroundColor = data[name].other.fill;
+				bg.setAttribute('width',data[name].other.width);
+				bg.setAttribute('height',data[name].other.height);
+				bg.setAttribute('fill',data[name].other.fill);
+				paths.forEach(function(a,b,c){
+					a.setAttribute('d',data[name].svg['p'+(b+1)].d);
+					a.setAttribute('fill',data[name].svg['p'+(b+1)].fill);
+					a.setAttribute('fill-opacity',data[name].svg['p'+(b+1)]['fill-opacity']);
+				});
+				setTimeout(function(){
+					onOff = true;
+				},1100)
+				changeInfo(name);
+			}
 		};
 		//人物信息改变
 		function changeInfo( who ){
