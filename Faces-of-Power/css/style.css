@@ -345,7 +345,7 @@ rect{
 #personage .bar-btn div{
 	width: 2vw;
 	height: 2vw;
-	background-size: cover;
+	background-size: contain;
 	opacity: 0.3;
 	transition: 1s;
 	cursor: pointer;
@@ -353,12 +353,12 @@ rect{
 #personage .bar-btn .prev{
 	float: left;
 	margin-left: 20px;
-	background: url(../img/left-arrow_dark.svg) no-repeat;
+	background: url(../img/left.png) center no-repeat;
 }
 #personage .bar-btn .next{
 	float: right;
 	margin-right: 20px;
-	background: url(../img/right-arrow_dark.svg) no-repeat;
+	background: url(../img/right.png) center no-repeat;
 }
 #personage .bar-btn div:hover{
 	opacity: 0.5;

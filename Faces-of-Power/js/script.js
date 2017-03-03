@@ -8,7 +8,6 @@ window.onload = function(){
 		a.style.left = 80*b + 'px';
 	})
 	bar_img.style.left = -(3600 - winW)/2 + 'px';
-//	grayscale(bar_imgs.getElementsByTagName("div"));/*-----灰色蒙版------*/
 
 /*-------------nav跳转---------------*/
 	(function(){
@@ -276,12 +275,19 @@ window.onload = function(){
 		var clipPaths = canvas.getElementsByTagName('clipPath');
 		var bg = canvas.getElementsByClassName('bg')[0];
 		var paths = canvas.getElementsByTagName('path');
+		var bar_btns = document.getElementById('bar-btn').getElementsByTagName('div');//获取上一张下一张的点击按钮
 		var imgs = personage.getElementsByClassName('bar-imgs')[0].getElementsByTagName('div');
 		imgs = Array.from(imgs);//类数组转数组
 		svgs = Array.from(svgs);
 		paths = Array.from(paths);
 		clipPaths = Array.from(clipPaths);
 		var onOff = true;//防止下面的小图没有运动完就点击，不然图会错乱
+		
+		//上一张
+		bar_btns[0].addEventListener('click',function(){
+			
+		});
+		
 		
 		imgs.forEach(function(a,b,c){
 			a.addEventListener('click',clickFn);
@@ -341,18 +347,21 @@ window.onload = function(){
 			var ul = resume.getElementsByTagName('ul')[0];
 			var info = document.getElementsByClassName('info')[0];
 			var left = info.getElementsByClassName('left')[0];
+			var right = info.getElementsByClassName('right')[0];
+			var year = right.getElementsByTagName('strong')[0];
 			var p = left.getElementsByTagName('p')[0];
 			
+			year.innerHTML = data[who].info.date;
 			name.innerHTML = data[who].info.first + '<strong> ' + data[who].info.last + '</strong>';
 			p.innerHTML = data[who].info.word;
 			var str = '';
 			for(var attr in data[who].info){
-				if( attr != 'first' && attr != 'last' && attr != 'word' ){
+				if( attr != 'first' && attr != 'last' && attr != 'word' && attr != 'date' ){
 					str += '<li>' + attr + ': ' + data[who].info[attr] + '</li>';
 				}
 			}
 			ul.innerHTML = str;
-		}
+		};
 		
 	})();
 
