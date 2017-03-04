@@ -5,6 +5,15 @@ html,body{
 	position: relative;
 	/*position:relative是为了解决在移动端overflow:hidden;不起作用*/
 }
+/*-------svg图的黑白滤镜----------*/
+.gray{ 
+	-webkit-filter: grayscale(100%); 
+	-moz-filter: grayscale(100%); 
+	-ms-filter: grayscale(100%); 
+	-o-filter: grayscale(100%); 
+	filter: grayscale(100%); 
+	filter: gray; 
+} 
 #content{
 	width: 100vw;
 	height: 100vh;
@@ -313,32 +322,6 @@ rect{
 	left: 0;
 	bottom: 0;
 }
-/*--------人物黑色蒙版--------*/
-/*#personage .bar .mask{
-	width: 3600px;
-	height: 110px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: 10;
-	opacity: 0.3;
-}
-#personage .bar .mask .left{
-	width: 1760px;
-	height: 110px;
-	background-color: #000000;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-}
-#personage .bar .mask .right{
-	width: 1760px;
-	height: 110px;
-	background-color: #000000;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-}*/
 #personage .bar-btn{
 	height: 5vw;
 }

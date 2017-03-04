@@ -290,10 +290,10 @@ window.onload = function(){
 				imgs.forEach(function(a,b,c){
 					if( a.offsetLeft == 1760 ){
 						if( a.previousElementSibling ){//如果有上一个兄弟节点
-							var name = a.previousElementSibling.className;
+							var name = a.previousElementSibling.id;
 						}else{
 							console.log(c[c.length-1])
-							var name = c[c.length-1].className;
+							var name = c[c.length-1].id;
 						}
 						nowL = 1680;
 						location.hash = 'name=' + name;
@@ -308,9 +308,9 @@ window.onload = function(){
 				imgs.forEach(function(a,b,c){
 					if( a.offsetLeft == 1760 ){
 						if( a.nextElementSibling ){//如果有下一个兄弟节点
-							var name = a.nextElementSibling.className;
+							var name = a.nextElementSibling.id;
 						}else{
-							var name = c[0].className;
+							var name = c[0].id;
 						}
 						nowL = 1840;
 						location.hash = 'name=' + name;
@@ -330,7 +330,7 @@ window.onload = function(){
 		imgs.forEach(function(a,b,c){
 			a.addEventListener('click',function(ev){
 				if( onOff ){
-					location.hash = 'name=' + ev.target.className;
+					location.hash = 'name=' + ev.target.id;
 					nowL = ev.target.offsetLeft;//当前点击图片的位置
 				}
 			});
@@ -344,6 +344,11 @@ window.onload = function(){
 					var oldL = a.offsetLeft;
 					var newL = oldL - disL;
 					a.style.zIndex = '';
+					if( newL == 1760 ){
+						a.className = '';
+					}else{
+						a.className = 'gray';
+					}
 					if( newL < 0 ){
 						newL = 3520 - disL + oldL;
 						a.style.zIndex = '-1';
@@ -402,8 +407,6 @@ window.onload = function(){
 		};
 		
 	})();
-
-
 }
 
 
