@@ -329,8 +329,10 @@ window.onload = function(){
 		
 		imgs.forEach(function(a,b,c){
 			a.addEventListener('click',function(ev){
-				location.hash = 'name=' + ev.target.className;
-				nowL = ev.target.offsetLeft;//当前点击图片的位置
+				if( onOff ){
+					location.hash = 'name=' + ev.target.className;
+					nowL = ev.target.offsetLeft;//当前点击图片的位置
+				}
 			});
 		});
 		function clickFn(hash){
