@@ -277,6 +277,7 @@ window.onload = function(){
 		var paths = canvas.getElementsByTagName('path');
 		var bar_btns = document.getElementById('bar-btn').getElementsByTagName('div');//获取上一张下一张的点击按钮
 		var imgs = personage.getElementsByClassName('bar-imgs')[0].getElementsByTagName('div');
+		var nowL = 0;//记录当前点击图片的位置
 		imgs = Array.from(imgs);//类数组转数组
 		svgs = Array.from(svgs);
 		paths = Array.from(paths);
@@ -285,22 +286,58 @@ window.onload = function(){
 		
 		//上一张
 		bar_btns[0].addEventListener('click',function(){
-			
+			if( onOff ){
+				imgs.forEach(function(a,b,c){
+					if( a.offsetLeft == 1760 ){
+						if( a.previousElementSibling ){//如果有上一个兄弟节点
+							var name = a.previousElementSibling.className;
+						}else{
+							console.log(c[c.length-1])
+							var name = c[c.length-1].className;
+						}
+						nowL = 1680;
+						location.hash = 'name=' + name;
+						return;
+					}
+				});
+			}
+		});
+		//下一张
+		bar_btns[1].addEventListener('click',function(){
+			if( onOff ){
+				imgs.forEach(function(a,b,c){
+					if( a.offsetLeft == 1760 ){
+						if( a.nextElementSibling ){//如果有下一个兄弟节点
+							var name = a.nextElementSibling.className;
+						}else{
+							var name = c[0].className;
+						}
+						nowL = 1840;
+						location.hash = 'name=' + name;
+						return;
+					}
+				});
+			}
 		});
 		
+		//当hash改变换图
+		window.onhashchange = function(){
+			var hash = location.hash.split('=')[1];
+			clickFn(hash);
+			changeInfo(hash);
+		}
 		
 		imgs.forEach(function(a,b,c){
-			a.addEventListener('click',clickFn);
+			a.addEventListener('click',function(ev){
+				location.hash = 'name=' + ev.target.className;
+				nowL = ev.target.offsetLeft;//当前点击图片的位置
+			});
 		});
-		function clickFn(ev){
+		function clickFn(hash){
 			if( onOff ){
 				onOff = false;
-				var name = ev.target.className;
 				//给点击的小图重新定位
-				var nowL = ev.target.offsetLeft;//当前点击图片的位置
-				var center = (bar_img.offsetWidth - ev.target.offsetWidth)/2;//中心位置
-				var disL = nowL - center;//移动距离
-				ev.target.style.left = center + 'px';
+				var disL = nowL - 1760;//移动距离(1760是中心位置)
 				imgs.forEach(function(a,b,c){
 					var oldL = a.offsetLeft;
 					var newL = oldL - disL;
@@ -322,22 +359,21 @@ window.onload = function(){
 	//				a.setAttribute('viewBox',data[name].other.viewBox);
 	//			});
 				clipPaths.forEach(function(a,b,c){
-					a.children[0].setAttribute('width',data[name].other.width);
-					a.children[0].setAttribute('height',data[name].other.height);
+					a.children[0].setAttribute('width',data[hash].other.width);
+					a.children[0].setAttribute('height',data[hash].other.height);
 				});
-				canvas.style.backgroundColor = data[name].other.fill;
-				bg.setAttribute('width',data[name].other.width);
-				bg.setAttribute('height',data[name].other.height);
-				bg.setAttribute('fill',data[name].other.fill);
+				canvas.style.backgroundColor = data[hash].other.fill;
+				bg.setAttribute('width',data[hash].other.width);
+				bg.setAttribute('height',data[hash].other.height);
+				bg.setAttribute('fill',data[hash].other.fill);
 				paths.forEach(function(a,b,c){
-					a.setAttribute('d',data[name].svg['p'+(b+1)].d);
-					a.setAttribute('fill',data[name].svg['p'+(b+1)].fill);
-					a.setAttribute('fill-opacity',data[name].svg['p'+(b+1)]['fill-opacity']);
+					a.setAttribute('d',data[hash].svg['p'+(b+1)].d);
+					a.setAttribute('fill',data[hash].svg['p'+(b+1)].fill);
+					a.setAttribute('fill-opacity',data[hash].svg['p'+(b+1)]['fill-opacity']);
 				});
 				setTimeout(function(){
 					onOff = true;
-				},1100)
-				changeInfo(name);
+				},1100);
 			}
 		};
 		//人物信息改变
