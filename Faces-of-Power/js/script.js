@@ -1,5 +1,6 @@
 window.onload = function(){
 	var winW = window.innerWidth;
+	var winH = window.innerHeight;
 	var bar_img = document.getElementsByClassName('bar-imgs')[0];
 	var bar_img_divs = bar_img.getElementsByTagName('div');
 	bar_img_divs = Array.from(bar_img_divs);
@@ -406,7 +407,66 @@ window.onload = function(){
 			ul.innerHTML = str;
 		};
 		
+		/*-------------face随鼠标移动----------------*/		
+		
+		document.addEventListener('mousemove',move);
+		function move(ev){
+			var t = (ev.pageY - winH/2)*0.008;
+			var l = (ev.pageX - winW/2)*0.008;
+			
+			svgs[0].style.left = -l + 'px';
+			svgs[0].style.top = -t + 'px';
+			
+			for(var i=1;i<svgs.length;i++){
+				svgs[i].style.left = l + 'px';
+				svgs[i].style.top = t + 'px';
+			}
+		}
 	})();
+	
+
+
+
+	
+/*-------------canvas----------------*/
+	
+//	(function(){
+//		var canvas = document.getElementById('canvas');
+//		canvas.width = winW/2;
+//		canvas.height = winH;
+//		var context = canvas.getContext('2d');
+//		
+//		//绘制星星函数
+//		function drawStar(cxt,r,R,x,y,rot){
+//			cxt.beginPath();
+//			for( var i=0 ; i<5 ; i++ ){
+//				cxt.lineTo( Math.cos( ( 18 + i*72 - rot )/180 * Math.PI ) * R + x ,
+//							-Math.sin( ( 18 + i*72 - rot )/180 * Math.PI ) * R + y );
+//				cxt.lineTo( Math.cos( ( 54 + i*72 - rot )/180 * Math.PI ) * r + x ,
+//							-Math.sin( ( 54 + i*72 - rot )/180 * Math.PI ) * r + y );
+//			}
+//			cxt.closePath();
+//			
+//			cxt.fillStyle = '#fb3';
+//			cxt.strokeStyle = '#fd5';
+//			cxt.lineWidth = 3;
+//			cxt.lineJoin = 'round';
+//			
+//			cxt.fill();
+//			cxt.stroke();
+//		}
+//		//绘制一个小星星
+//		var star = document.createElement('canvas');
+//		star.width = 40;
+//		star.height = 40;
+//		var starCxt = star.getContext('2d');
+//		drawStar(starCxt,10,20,10,10,0);
+//		
+//		var pattern = context.createPattern(star,"repeat");
+//		context.fillStyle = pattern;
+//		context.fillRect(0,0,canvas.width,canvas.height);
+//		
+//	})();
 }
 
 

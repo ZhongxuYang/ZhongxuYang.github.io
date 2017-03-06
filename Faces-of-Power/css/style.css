@@ -29,7 +29,6 @@ svg{
 	position: absolute;
 	left: 0;
 	top: 0;
-	transition: 2s ease-in-out;
 }
 defs{
 	transition: 2s ease-in-out;
@@ -46,6 +45,13 @@ rect{
 	position: absolute;
 	z-index: -1;
 	transition: 2s ease-in-out;
+}
+#canvas{
+	vertical-align: top;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.3;
 }
 #personage .canvas{
 	background-color: rgb(194, 192, 202);
