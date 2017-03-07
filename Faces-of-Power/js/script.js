@@ -278,6 +278,7 @@ window.onload = function(){
 		var paths = canvas.getElementsByTagName('path');
 		var bar_btns = document.getElementById('bar-btn').getElementsByTagName('div');//获取上一张下一张的点击按钮
 		var imgs = personage.getElementsByClassName('bar-imgs')[0].getElementsByTagName('div');
+		var stars = document.getElementsByClassName('stars');
 		var nowL = 0;//记录当前点击图片的位置
 		imgs = Array.from(imgs);//类数组转数组
 		svgs = Array.from(svgs);
@@ -408,6 +409,7 @@ window.onload = function(){
 			ul.innerHTML = str;
 		};
 		
+		
 		/*-------------face随鼠标移动----------------*/		
 		
 		document.addEventListener('mousemove',move);
@@ -421,6 +423,15 @@ window.onload = function(){
 			for(var i=1;i<svgs.length;i++){
 				svgs[i].style.left = l + 'px';
 				svgs[i].style.top = t + 'px';
+			}
+			
+			
+			for(var i=0;i<stars.length;i++){
+				if( i%2 == 0 ){
+					stars[i].style.transform = 'translate(' + t + 'px,' + l + 'px)';
+				}else{
+					stars[i].style.transform = 'translate(-' + t + 'px,-' + l + 'px)';
+				}
 			}
 		}
 	})();

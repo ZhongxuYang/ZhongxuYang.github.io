@@ -230,17 +230,6 @@ rect{
 	height: 100vh;
 	overflow: hidden;
 }
-/*#personage .star{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 50vw;
-	height: 100vh;
-	background: url(../img/star-bg.svg) repeat-y;
-	opacity: 0.1;
-	background-size: 3vw 3vw;
-	z-index: -10;
-}*/
 #personage .nav{
 	width: 40px;
 	height: 40px;
@@ -321,6 +310,7 @@ rect{
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	z-index: 1;
 }
 #personage .bar-btn{
 	height: 5vw;
@@ -405,4 +395,17 @@ rect{
 .official .btn{
 	right: 10px;
 	bottom: 40px;
+}
+/*-----------------stars------------------*/
+.stars{
+	width: 4vw;
+	height: 100vh;
+	float: left;
+	opacity: 0.05;
+	top: 0;
+}
+.stars div{
+	height: 10vh;
+	background: url(../img/star-bg.svg) no-repeat;
+	background-size: 30px 30px;
 }
