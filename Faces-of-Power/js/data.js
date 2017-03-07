@@ -206,6 +206,7 @@ var data = {
 		info:{
 			'first': 'Donald',
 			'last': 'TRUMP',
+			'color': "#000",
 			'word':'“Make America <br>&nbsp;Great Again”​',
 			'date':'2017-2021',
 			'Party Affiliation':'Republican Party',
@@ -433,6 +434,7 @@ var data = {
 		info:{
 			'first':'Barack',
 			'last': 'OBAMA',
+			'color': "#000",
 			'word':'“Yes We Can”​<br />“Forward”',
 			'date':'2009-2017',
 			'Party Affiliation':'Democratic Party',
@@ -660,6 +662,7 @@ var data = {
 		info:{
 			'first':'John Q.',
 			'last':'ADAMS',
+			'color': "#fff",
 			'word':'',
 			'date':'1825-1829',
 			'Party Affiliation':'Democratic-Republican Party',
@@ -891,6 +894,7 @@ var data = {
 		info:{
 			'first':'Chester A.',
 			'last':'ARTHUR',
+			'color': "#fff",
 			'word':'',
 			'date':'1881-1885',
 			'Party Affiliation': 'Republican Party',
@@ -1122,6 +1126,7 @@ var data = {
 		info:{
 			'first':'Lyndon B.',
 			'last': 'Johnson',
+			'color': "#000",
 			'word':'“The Stakes are too High <br />&nbsp;for You to Stay at Home”',
 			'date':'1963-1969',
 			'Party Affiliation': 'Democratic Party',
@@ -1253,6 +1258,7 @@ var data = {
 		info:{
 			'first':'James',
 			'last':'BUCHANAN',
+			'color': "#fff",
 			'word':'“We\'ll Buck \'em in \'56”',
 			'date':'1857-1861',
 			'Party Affiliation': 'Democratic Party',
@@ -1384,6 +1390,7 @@ var data = {
 		info:{
 			'first':'Jimmy',
 			'last':'CARTER',
+			'color': "#fff",
 			'word':'“A Leader, For a Change”​',
 			'date':'1977-1981',
 			'Party Affiliation': 'Democratic Party',
@@ -1513,6 +1520,7 @@ var data = {
 		info:{
 			'first':'Grover',
 			'last':'CLEVELAND',
+			'color': "#fff",
 			'word':'“Blaine, Blaine, <br />&nbsp;James G. Blaine! <br />&nbsp;The continental liar <br />&nbsp;from the state of Maine!”<br />“Our choice: Cleve and Steve”',
 			'date':'1885-1889',
 			'Party Affiliation': 'Democratic Party',
@@ -1643,6 +1651,7 @@ var data = {
 		info:{
 			'first':'Bill',
 			'last':'CLINTON',
+			'color': "#fff",
 			'word':'“Putting People First”​<br />“Building a Bridge <br />&nbsp;to the 21st Century”',
 			'date':'1993-2001',
 			'Party Affiliation': 'Democratic Party',
@@ -1772,6 +1781,7 @@ var data = {
 		info:{
 			'first':'Calvin',
 			'last':'COOLIDGE',
+			'color': "#fff",
 			'word':'“Keep Cool <br>&nbsp;and Keep Coolidge”​',
 			'date':'1923-1929',
 			'Party Affiliation': 'Republican Party',
@@ -1903,6 +1913,7 @@ var data = {
 		info:{
 			'first':'Franklin D.',
 			'last':'ROOSEVELT',
+			'color': "#fff",
 			'word':'“Remember Hoover!”​<br />“Better A Third Termer <br />&nbsp;than a Third Rater”​<br />“Don\'t swap horses <br />&nbsp;in midstream”​',
 			'date':'1933-1945',
 			'Party Affiliation': 'Democratic Party',
@@ -2035,6 +2046,7 @@ var data = {
 		info:{
 			'first':'Dwight',
 			'last':'EISENHOWER',
+			'color': "#fff",
 			'word':'“I like Ike”​<br />“Peace and Prosperity”',
 			'date':'1953-1961',
 			'Party Affiliation': 'Republican Party',
@@ -2166,6 +2178,7 @@ var data = {
 		info:{
 			'first':'Millard',
 			'last':'FILLMORE',
+			'color': "#000",
 			'word':'',
 			'date':'1850-1853',
 			'Party Affiliation': 'Whig Party',
@@ -2295,6 +2308,7 @@ var data = {
 		info:{
 			'first':'Gerald',
 			'last':'FORD',
+			'color': "#fff",
 			'word':'“He\'s Making us <br />&nbsp;Proud Again”',
 			'date':'1974-1977',
 			'Party Affiliation': 'Republican Party',
@@ -2426,6 +2440,7 @@ var data = {
 		info:{
 			'first':'James A.',
 			'last':'GARFIELD',
+			'color': "#fff",
 			'word':'',
 			'date':'1881-1881',
 			'Party Affiliation': 'Republican Party',
@@ -2557,6 +2572,7 @@ var data = {
 		info:{
 			'first':'Ulysses S.',
 			'last':'GRANT',
+			'color': "#000",
 			'word':'“Let Us Have Peace”​<br />“Grant Us Another Term”',
 			'date':'1869-1877',
 			'Party Affiliation': 'Republican Party',
@@ -2688,6 +2704,7 @@ var data = {
 		info:{
 			'first':'George W.',
 			'last':'BUSH',
+			'color': "#000",
 			'word':'“Reformer with Results”​<br />“A Safer World and <br />&nbsp;a More Hopeful America”',
 			'date':'2001-2009',
 			'Party Affiliation': 'Republican Party',
@@ -2817,6 +2834,7 @@ var data = {
 		info:{
 			'first':'Warren G.',
 			'last':'HARDING',
+			'color': "#fff",
 			'word':'“Return to normalcy”',
 			'date':'1921-1923',
 			'Party Affiliation': 'Republican Party',
@@ -2948,6 +2966,7 @@ var data = {
 		info:{
 			'first':'Benjamin',
 			'last':'HARRISON',
+			'color': "#000",
 			'word':'“Rejuvenated <br />&nbsp;Republicanism”​',
 			'date':'1889-1893',
 			'Party Affiliation': 'Democratic Party',
@@ -3079,6 +3098,7 @@ var data = {
 		info:{
 			'first':'Rutherford B.',
 			'last':'HAYES',
+			'color': "#fff",
 			'word':'“Hayes the true <br />&nbsp;and Wheeler too”​',
 			'date':'1877-1881',
 			'Party Affiliation': 'Republican Party',
@@ -3210,6 +3230,7 @@ var data = {
 		info:{
 			'first':'Herbert',
 			'last':'HOOVER',
+			'color': "#fff",
 			'word':'“A Chicken in Every Pot <br>&nbsp;and a Car in Every Garage”​<br />“We are turning the corner”',
 			'date':'1929-1933',
 			'Party Affiliation': 'Republican Party',
@@ -3341,6 +3362,7 @@ var data = {
 		info:{
 			'first':'George H.W.',
 			'last':'BUSH',
+			'color': "#fff",
 			'word':'“Kinder, Gentler Nation”',
 			'date':'1989-1993',
 			'Party Affiliation': 'Republican Party',
@@ -3470,6 +3492,7 @@ var data = {
 		info:{
 			'first':'Andrew',
 			'last':'JACKSON',
+			'color': "#fff",
 			'word':'',
 			'date':'1829-1837',
 			'Party Affiliation': 'Democratic Party',
@@ -3601,6 +3624,7 @@ var data = {
 		info:{
 			'first':'John Q.',
 			'last':'ADAMS',
+			'color': "#fff",
 			'word':'',
 			'date':'1825-1829',
 			'Party Affiliation': 'Democratic-Republican Party',
@@ -3732,6 +3756,7 @@ var data = {
 		info:{
 			'first':'Thomas',
 			'last':'Jefferson',
+			'color': "#fff",
 			'word':'',
 			'date':'1801-1809',
 			'Party Affiliation': 'Democratic-Republican Party',
@@ -3863,6 +3888,7 @@ var data = {
 		info:{
 			'first':'Lyndon B.',
 			'last':'Johnson',
+			'color': "#fff",
 			'word':'“The Stakes are too High <br />&nbsp;for You to Stay at Home”',
 			'date':'1963-1969',
 			'Party Affiliation': 'Democratic Party',
@@ -3994,6 +4020,7 @@ var data = {
 		info:{
 			'first':'John',
 			'last':'KENNEDY',
+			'color': "#000",
 			'word':'“A time for greatness 1960”​',
 			'date':'1961-1963',
 			'Party Affiliation': 'Democratic Party',
@@ -4125,6 +4152,7 @@ var data = {
 		info:{
 			'first':'Abraham',
 			'last':'LINCOLN',
+			'color': "#000",
 			'word':'“Vote yourself a farm”​<br />“Don\'t Swap Horses <br />&nbsp;in the Middle <br />&nbsp;of the Stream”',
 			'date':'1861-1865',
 			'Party Affiliation': 'Republican Party',
@@ -4255,6 +4283,7 @@ var data = {
 		info:{
 			'first':'James',
 			'last':'MADISON',
+			'color': "#fff",
 			'word':'',
 			'date':'1809-1817',
 			'Party Affiliation': 'Democratic-Republican Party',
@@ -4385,6 +4414,7 @@ var data = {
 		info:{
 			'first':'William',
 			'last':'MCKINLEY',
+			'color': "#fff",
 			'word':'“Patriotism, Protection, <br />&nbsp;and Prosperity”​<br />“A Full Dinner Pail”',
 			'date':'1897-1901',
 			'Party Affiliation': 'Republican Party',
@@ -4516,6 +4546,7 @@ var data = {
 		info:{
 			'first':'James',
 			'last':'MONROE',
+			'color': "#fff",
 			'word':'',
 			'date':'1817-1825',
 			'Party Affiliation': 'Democratic-Republican Party',
@@ -4647,6 +4678,7 @@ var data = {
 		info:{
 			'first':'Richard',
 			'last':'NIXON',
+			'color': "#fff",
 			'word':'“Nixon\'s the One”​',
 			'date':'1969-1974',
 			'Party Affiliation': 'Republican Party',
@@ -4778,6 +4810,7 @@ var data = {
 		info:{
 			'first':'Franklin',
 			'last':'PIERCE',
+			'color': "#000",
 			'word':'“We Polked you in \'44, <br />&nbsp;We shall Pierce you in \'52”​',
 			'date':'1853-1857',
 			'Party Affiliation': 'Democratic Party',
@@ -4909,6 +4942,7 @@ var data = {
 		info:{
 			'first':'James K.',
 			'last':'POLK',
+			'color': "#fff",
 			'word':'“Reannexation of Texas <br />&nbsp;and Reoccupation <br />&nbsp;of Oregon”',
 			'date':'1845-1849',
 			'Party Affiliation': 'Democratic Party',
@@ -5040,6 +5074,7 @@ var data = {
 		info:{
 			'first':'Ronald',
 			'last':'REAGAN',
+			'color': "#fff",
 			'word':'“Are you better off than <br>&nbsp;you were four years ago?”​<br />“It’s Morning Again <br />&nbsp;in America”​',
 			'date':'1981-1989',
 			'Party Affiliation': 'Republican Party',
@@ -5171,6 +5206,7 @@ var data = {
 		info:{
 			'first':'William H.',
 			'last':'TAFT',
+			'color': "#fff",
 			'word':'“A Square Deal For All”',
 			'date':'1909-1913',
 			'Party Affiliation': 'Republican Party',
@@ -5302,6 +5338,7 @@ var data = {
 		info:{
 			'first':'Zachary',
 			'last':'TAYLOR',
+			'color': "#000",
 			'word':'“For President <br />&nbsp;of the People”​',
 			'date':'1849-1850',
 			'Party Affiliation': 'Whig Party',
@@ -5432,6 +5469,7 @@ var data = {
 		info:{
 			'first':'Theodore',
 			'last':'ROOSEVELT',
+			'color': "#fff",
 			'word':'“To Assure <br />&nbsp;Continued Prosperity”​',
 			'date':'1901-1909',
 			'Party Affiliation': 'Republican Party',
@@ -5563,6 +5601,7 @@ var data = {
 		info:{
 			'first':'Harry',
 			'last':'TRUMAN',
+			'color': "#fff",
 			'word':'“I\'m just wild about Harry”​',
 			'date':'1945-1953',
 			'Party Affiliation': 'Democratic Party',
@@ -5693,6 +5732,7 @@ var data = {
 		info:{
 			'first':'John',
 			'last':'TYLER',
+			'color': "#000",
 			'word':'',
 			'date':'1841-1845',
 			'Party Affiliation': 'Whig Party',
@@ -5823,6 +5863,7 @@ var data = {
 		info:{
 			'first':'Martin VAN',
 			'last':'BUREN',
+			'color': "#fff",
 			'word':'',
 			'date':'1837-1841',
 			'Party Affiliation': 'Democratic Party',
@@ -5954,6 +5995,7 @@ var data = {
 		info:{
 			'first':'George',
 			'last':'Washington',
+			'color': "#fff",
 			'word':'',
 			'date':'1789-1797',
 			'Took Office': 'April 30, 1789 (age 57 years 2 months)',
@@ -6082,6 +6124,7 @@ var data = {
 		info:{
 			'first':'William H.',
 			'last':'HARRISON',
+			'color': "#fff",
 			'word':'“Tippecanoe <br />&nbsp;and Tyler Too”',
 			'date':'1841-1841',
 			'Party Affiliation': 'Whig Party',
@@ -6213,6 +6256,7 @@ var data = {
 		info:{
 			'first':'Woodrow',
 			'last':'WILSON',
+			'color': "#fff",
 			'word':'“Win with Wilson”​<br />“He has kept us <br />&nbsp;out of war”',
 			'date':'1913-1921',
 			'Party Affiliation': 'Democratic Party',

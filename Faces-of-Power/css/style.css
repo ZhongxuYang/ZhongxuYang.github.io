@@ -46,13 +46,6 @@ rect{
 	z-index: -1;
 	transition: 2s ease-in-out;
 }
-#canvas{
-	vertical-align: top;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0.3;
-}
 #personage .canvas{
 	background-color: rgb(194, 192, 202);
 }
@@ -282,7 +275,8 @@ rect{
 	width: 100vw;
 	position: absolute;
 	top: 100px;
-	color: rgba(0,0,0,0.4);
+	color: #000;
+	opacity: 0.4;
 	z-index: 10px;
 	transition: 1s;
 }
