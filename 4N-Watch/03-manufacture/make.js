@@ -90,7 +90,7 @@ window.onload = function(){
 			}
 			nums[1].style.backgroundPositionY = t2 +10 + 'px';
 		}
-		var lt1 = parseInt(getComputedStyle(nums[0]).backgroundPositionY); 
+		var lt1 = parseInt(getComputedStyle(nums[0]).backgroundPositionY);
 		var lt2 = parseInt(getComputedStyle(nums[1]).backgroundPositionY);
 		console.log(lt1,lt2)
 		if( (lt1==-2&&lt2==-2) || (lt1==-82&&lt2<=-490) ){
@@ -152,10 +152,10 @@ window.onload = function(){
 				pos1 = pos2 = pos3 = pos4 = 70;
 			}
 			timerDivs[0].style.backgroundPositionY = pos0 + 10 +'px';
-			timerDivs[1].style.backgroundPositionY = pos1 + 10 +'px'; 
-			timerDivs[2].style.backgroundPositionY = pos2 + 10 +'px'; 
-			timerDivs[3].style.backgroundPositionY = pos3 + 10 +'px'; 
-			timerDivs[4].style.backgroundPositionY = pos4 + 10 +'px'; 
+			timerDivs[1].style.backgroundPositionY = pos1 + 10 +'px';
+			timerDivs[2].style.backgroundPositionY = pos2 + 10 +'px';
+			timerDivs[3].style.backgroundPositionY = pos3 + 10 +'px';
+			timerDivs[4].style.backgroundPositionY = pos4 + 10 +'px';
 			if( pos0 == -10 && pos5 == -10 ){
 				end3 = false;
 				scroll = true;
@@ -167,13 +167,13 @@ window.onload = function(){
 		
 		if( ev.deltaY > 0 ){//向下滚
 			if( Pos0306 == 0 ){
-                location.href = '../04-设计/04-设计.html';  //跳转到下一个页面
+                location.href = '../04-design/04-design.html';  //跳转到下一个页面
 				return;
 			}
 		}
 		if( ev.deltaY < 0 ){//向上滚
 			if( s_03_01_imgs[0].style.top == '0px' ){
-                location.href = '../02-显示/02-显示.html';  //跳转到上一个页面
+                location.href = '../02-show/02-show.html';  //跳转到上一个页面
 				return;
 			}
 		}
@@ -253,10 +253,10 @@ window.onload = function(){
     var oFotBot = document.getElementById('fot-bot');
     var oFotWrap = document.getElementById('fot-wrap');
     
-    var arrTxt = ['01-欢迎','02-显示','03-制造','04-设计'];
+    var arrTxt = ['01-welcome','02-show','03-manufacture','04-design'];
     
     show();  //判断哪个按钮为激活状态
-    var arrHref = ['../01-欢迎/4N 当代高级手表制造.html','../02-显示/02-显示.html','../03-制造/03-制造.html','../04-设计/04-设计.html'];
+    var arrHref = ['../01-welcome/01-welcome.html','../02-show/02-show.html','../03-manufacture/03-manufacture.html','../04-design/04-design.html'];
     
     oFotWrap.onmouseenter = function(){
         oFotTop.style.top = '-20px';

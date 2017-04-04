@@ -1,7 +1,3 @@
-/**
- * Created by 孙国庆 on 2017/2/5.
- */
-
 window.onload = function(){
     var oXh_wrapper = document.getElementById('xh-wrapper');
     
@@ -30,7 +26,7 @@ window.onload = function(){
     var oXh_img = document.getElementsByClassName('xh-img')[0];  //手表零件的父级
     var aImg = oXh_img.children;  //所有手表的零件
     var arrImg = [];
-    var arrTxt = ['01-欢迎','02-显示','03-制造','04-设计'];
+    var arrTxt = ['01-welcome','02-show','03-manufacture','04-design'];
     
     
     /*开场动画*/
@@ -78,7 +74,7 @@ window.onload = function(){
         var sH = window.pageYOffset;  //滚动条滚动的距离
         
         if(sH < 50) {
-            location.href = '../01-欢迎/4N 当代高级手表制造.html';  //跳转到上一页
+            location.href = '../01-welcome/01-welcome.html';  //跳转到上一页
         }
         
         if(sH < 400){
@@ -203,15 +199,15 @@ window.onload = function(){
             oXh_content_04.style.left = (oW-17) - (sH-10244)/3000*2800  + 'px';  //场景4移动
         }else if(sH > 13244 ){
             oXh_content_04.style.left = oW - 2800  + 'px';
-            location.href = '../03-制造/03-制造.html';  //跳转到下一个页面
+            location.href = '../03-manufacture/03-manufacture.html';  //跳转到下一个页面
         }else if(sH > 13400){
-            location.href = '../03-制造/03-制造.html';  //跳转到下一个页面
+            location.href = '../03-manufacture/03-manufacture.html';  //跳转到下一个页面
         }
     };
     
     
     show();  //判断哪个按钮为激活状态
-    var arrHref = ['../01-欢迎/4N 当代高级手表制造.html','../02-显示/02-显示.html','../03-制造/03-制造.html','../04-设计/04-设计.html'];
+    var arrHref = ['../01-welcome/01-welcome.html','../02-show/02-show.html','../03-manufacture/03-manufacture.html','../04-design/04-design.html'];
     
     oFotWrap.onmouseenter = function(){
         oFotTop.style.top = '-20px';

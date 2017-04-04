@@ -1,16 +1,13 @@
 /**
  * Created by 孙国庆 on 2017/2/9.
  */
-
+window.onload = function(){
 var oFotTop = document.getElementById('fot-top');
 var oFotCen = document.getElementById('fot-cen');
 var oFotBot = document.getElementById('fot-bot');
 var oFotWrap = document.getElementById('fot-wrap');
-
-document.body.index = 3;
-
-var arrTxt = ['01-欢迎','02-显示','03-制造','04-设计'];
-var arrHref = ['../01-欢迎/4N 当代高级手表制造.html','../02-显示/02-显示.html','../03-制造/03-制造.html','../04-设计/04-设计.html'];
+    
+var arrTxt = ['01-welcome','02-show','03-manufacture','04-design'];
 
 show();  //判断哪个按钮为激活状态
 
@@ -35,6 +32,7 @@ oFotTop.onmouseleave = oFotBot.onmouseenter = function(){
     
     show();  //判断哪个按钮为激活状态
 };
+    var arrHref = ['../01-welcome/01-welcome.html','../02-show/02-show.html','../03-manufacture/03-manufacture.html','../04-design/04-design.html'];
 
 for(var i=0; i<oFotCen.children.length; i++){
     oFotCen.children[i].index = i;
@@ -105,3 +103,4 @@ function show(){
             break;
     }
 }
+};

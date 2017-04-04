@@ -1,6 +1,3 @@
-/**
- * Created by yuanbo on 2017/2/6.
- */
 var s_04_01 = document.getElementById('s_04_01');
 var moveContent = document.getElementById('moveContent');
 var s_04_02 = document.getElementById('s_04_02');
@@ -108,7 +105,7 @@ s0405.style.left = '100%';
 window.onscroll = function (ev) {
     var windowY = window.pageYOffset;
     if(windowY<20){
-        location.href = '../03-制造/03-制造.html';
+        location.href = '../03-manufacture/03-manufacture.html';
     }
     if(windowY<5724 || windowY>6824){
         s_04_02_img2.style.opacity =0;
@@ -450,6 +447,9 @@ window.onscroll = function (ev) {
         textBlocks[4].style.marginLeft =  '0%';
         conImg.style.marginLeft = '0%';
         console.log(windowY);
+        /*if(windowY>17500){
+            location.href = '../EndShow/EndShow.html';
+        }*/
     }
 
     //透明移动文字
@@ -521,10 +521,6 @@ window.onscroll = function (ev) {
 
             break;
         case 5:
-
-
-
-
 
     }
 
