@@ -92,7 +92,6 @@ window.onload = function(){
 		}
 		var lt1 = parseInt(getComputedStyle(nums[0]).backgroundPositionY);
 		var lt2 = parseInt(getComputedStyle(nums[1]).backgroundPositionY);
-		console.log(lt1,lt2)
 		if( (lt1==-2&&lt2==-2) || (lt1==-82&&lt2<=-490) ){
 			end2 = false;
 			scroll = true;
@@ -116,7 +115,7 @@ window.onload = function(){
 				if( Math.abs(pos0-10)>=84 ){
 					pos0 = -74;
 				}
-				console.log(pos0)
+			
 				timerDivs[0].style.backgroundPositionY = pos0 - 10 +'px';
 				if( Math.abs(pos1-10)>=817 || pos1 == 0 ){
 					pos1 = 10;
@@ -135,7 +134,7 @@ window.onload = function(){
 				}
 				timerDivs[4].style.backgroundPositionY = pos4 - 10 +'px';
 			}
-			console.log(pos0,pos1,pos2,pos3,pos4,pos5)
+			
 			if( pos0 == -74 && pos1 == 10 && pos2 == 10 && pos3 == 10 && pos4 == 10 ){
 				end3 = false;
 				scroll = true;

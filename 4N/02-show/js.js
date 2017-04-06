@@ -1,3 +1,7 @@
+/**
+ * Created by 孙国庆 on 2017/2/5.
+ */
+
 window.onload = function(){
     var oXh_wrapper = document.getElementById('xh-wrapper');
     

@@ -1,3 +1,6 @@
+/**
+ * Created by yuanbo on 2017/2/6.
+ */
 var s_04_01 = document.getElementById('s_04_01');
 var moveContent = document.getElementById('moveContent');
 var s_04_02 = document.getElementById('s_04_02');
@@ -446,7 +449,7 @@ window.onscroll = function (ev) {
         conTexts[4].style.paddingLeft = '0%';
         textBlocks[4].style.marginLeft =  '0%';
         conImg.style.marginLeft = '0%';
-        console.log(windowY);
+       
         /*if(windowY>17500){
             location.href = '../EndShow/EndShow.html';
         }*/
