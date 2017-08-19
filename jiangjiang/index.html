@@ -5,6 +5,11 @@
     <title>姜姜的三行情诗</title>
     <link rel="stylesheet" type="text/css" href="cola-ui/semantic.css">
     <link rel="stylesheet" type="text/css" href="cola-ui/cola.css">
+    <style>
+        p{
+            text-align: center;
+        }
+    </style>
     <script src="cola-ui/jquery-2.1.3.js"></script>
     <script src="cola-ui/3rd.js"></script>
     <script src="cola-ui/semantic.js"></script>
@@ -14,11 +19,21 @@
     <div style="display:flex;justify-content: center;align-items: center;width: 100%;height: 100%;overflow: hidden;">
         <c-button caption="姜姜,点我⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄" class="primary" click="fn"></c-button>
     </div>
+    <c-dialog id="dialog" style="width: 80%;height: 50%">
+        <div class="content">
+            <p>天暗了</p>
+            <br/>
+            <p>八月份的尾巴</p>
+            <br/>
+            <p>姜姜要开学了</p>
+        </div>
+    </c-dialog>
     <script>
         cola(function (model) {
             model.action({
                 fn: function () {
-                    cola.alert("天暗了<br/>八月份的尾巴<br/>姜姜要开学了");
+//                    cola.alert("天暗了<br/>八月份的尾巴<br/>姜姜要开学了");
+                    cola.widget("dialog").show();
                 }
             })
         })
